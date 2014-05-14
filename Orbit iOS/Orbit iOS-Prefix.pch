@@ -1,0 +1,28 @@
+//
+// Prefix header for all source files of the 'Orbit iOS' target in the 'Orbit iOS' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+	#import <SystemConfiguration/SystemConfiguration.h>
+	#import <MobileCoreServices/MobileCoreServices.h>
+    #import <ADNKit/ADNKit.h>
+    #import "ORBAppDelegate.h"
+    #import "ORBPreferences.h"
+    #import "ORBFileWrapper.h"
+    #import "ORBDataSource.h"
+    #import "ALActionBlocks.h"
+    #import "SVProgressHUD.h"
+    #import "SVProgressHUD+Orbit.h"
+    #import "Blocks+Orbit.h"
+    #import "ALToolkit.h"
+    #import "UIViewController+Orbit.h"
+    #import "ORBNavigationController.h"
+#endif

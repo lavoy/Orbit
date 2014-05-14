@@ -1,0 +1,1537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25090148172BAAEE0028D183 /* AlertCautionIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 25090147172BAAEE0028D183 /* AlertCautionIcon.icns */; };
+		25694107172A4B3700BB474B /* ORBGeneralPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25694105172A4B3700BB474B /* ORBGeneralPrefsViewController.m */; };
+		25694108172A4B3700BB474B /* ORBGeneralPrefsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25694106172A4B3700BB474B /* ORBGeneralPrefsViewController.xib */; };
+		25795A7B170C8CC5003961E5 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 25795A7A170C8CC5003961E5 /* AppIcon.icns */; };
+		2592B72516FA3BD2004573FF /* ORBInsetTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2592B72416FA3BD2004573FF /* ORBInsetTextFieldCell.m */; };
+		2592B72716FA4507004573FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2592B72616FA4507004573FF /* QuartzCore.framework */; };
+		2592B75416FA4A23004573FF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2592B75316FA4A23004573FF /* Security.framework */; };
+		2592B76616FAA707004573FF /* ORBPanelSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2592B76516FAA707004573FF /* ORBPanelSeparatorView.m */; };
+		2592B76916FAB5FF004573FF /* ORBPanelFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2592B76816FAB5FF004573FF /* ORBPanelFooterView.m */; };
+		2592B76F16FAF375004573FF /* ORBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2592B76E16FAF375004573FF /* ORBTableView.m */; };
+		2592B77816FB6A8D004573FF /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 2592B77316FB6A8D004573FF /* gear.png */; };
+		2592B77B16FB6A8D004573FF /* lock-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 2592B77616FB6A8D004573FF /* lock-white.png */; };
+		2592B77C16FB6A8D004573FF /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 2592B77716FB6A8D004573FF /* lock.png */; };
+		2592B7C316FF5338004573FF /* ORBFileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2592B7C116FF5316004573FF /* ORBFileWrapper.m */; };
+		259BC0FB1725D4650077D9C9 /* odownload.icns in Resources */ = {isa = PBXBuildFile; fileRef = 259BC0FA1725D4650077D9C9 /* odownload.icns */; };
+		25D641A117436F00009322E5 /* appbadge-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D6419D17436F00009322E5 /* appbadge-down.png */; };
+		25D641A217436F00009322E5 /* appbadge-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D6419E17436F00009322E5 /* appbadge-down@2x.png */; };
+		25D641A317436F00009322E5 /* appbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D6419F17436F00009322E5 /* appbadge.png */; };
+		25D641A417436F00009322E5 /* appbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641A017436F00009322E5 /* appbadge@2x.png */; };
+		25D641AD17436F06009322E5 /* smartbadge-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641A917436F06009322E5 /* smartbadge-down.png */; };
+		25D641AE17436F06009322E5 /* smartbadge-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AA17436F06009322E5 /* smartbadge-down@2x.png */; };
+		25D641AF17436F06009322E5 /* smartbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AB17436F06009322E5 /* smartbadge.png */; };
+		25D641B017436F06009322E5 /* smartbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AC17436F06009322E5 /* smartbadge@2x.png */; };
+		5B41C8C5AE45440288849ACA /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F067CBB8B747D29FEF5D46 /* libPods-ios.a */; };
+		5D09813316FD860C002A6326 /* NSMenuItem+Orbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09813216FD860C002A6326 /* NSMenuItem+Orbit.m */; };
+		5D09813616FD8CCB002A6326 /* ORBPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09813516FD8CCB002A6326 /* ORBPopUpButton.m */; };
+		5D09813916FD8FF0002A6326 /* ORBMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09813816FD8FF0002A6326 /* ORBMenuController.m */; };
+		5D09813C16FD9E18002A6326 /* ORBImageCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09813B16FD9E18002A6326 /* ORBImageCellView.m */; };
+		5D09814216FD9F28002A6326 /* ORBTextCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09814116FD9F28002A6326 /* ORBTextCellView.m */; };
+		5D0CC6441736BC8F00AEEDAB /* ORBFilenameTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CC6431736BC8F00AEEDAB /* ORBFilenameTextField.m */; };
+		5D0CC64D1736CDCA00AEEDAB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CC64C1736CDCA00AEEDAB /* CoreServices.framework */; };
+		5D2CFECC16FE732800086FBD /* ORBWhiteProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CFECB16FE732800086FBD /* ORBWhiteProgressIndicator.m */; };
+		5D48218D17B7FB0C001A8AED /* ORBGradientLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48218C17B7FB0C001A8AED /* ORBGradientLayerView.m */; };
+		5D53878117341BE0008277F9 /* ORBShortcutPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D53877F17341BE0008277F9 /* ORBShortcutPrefsViewController.m */; };
+		5D53878217341BE0008277F9 /* ORBShortcutPrefsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D53878017341BE0008277F9 /* ORBShortcutPrefsViewController.xib */; };
+		5D53878617341BEF008277F9 /* ORBAdvancedPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D53878417341BEF008277F9 /* ORBAdvancedPrefsViewController.m */; };
+		5D53878717341BEF008277F9 /* ORBAdvancedPrefsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D53878517341BEF008277F9 /* ORBAdvancedPrefsViewController.xib */; };
+		5D57F7E017429600003B1D7F /* ORBCheckboxTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D57F7DF17429600003B1D7F /* ORBCheckboxTableCellView.m */; };
+		5D57F7E817429A76003B1D7F /* orbit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33F16F80C5B00B9D17B /* orbit@2x.png */; };
+		5D72C3AA17357C050095646F /* ORBPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C3A917357C050095646F /* ORBPreferences.m */; };
+		5D72C3B117357C2D0095646F /* ORBStorageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C3B017357C2D0095646F /* ORBStorageInfo.m */; };
+		5D72C3B217357C2D0095646F /* ORBStorageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C3B017357C2D0095646F /* ORBStorageInfo.m */; };
+		5D72C3B7173582FF0095646F /* ORBBasePrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C3B6173582FF0095646F /* ORBBasePrefsViewController.m */; };
+		5D76A1E717AF6A34004B576A /* appbadge-prefs.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D76A1E517AF6A34004B576A /* appbadge-prefs.png */; };
+		5D76A1E817AF6A34004B576A /* appbadge-prefs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D76A1E617AF6A34004B576A /* appbadge-prefs@2x.png */; };
+		5D965F721921D83F00836004 /* YRKSpinningProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D965F711921D83F00836004 /* YRKSpinningProgressIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5D965F741921E09600836004 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F731921E09600836004 /* AssetsLibrary.framework */; };
+		5D965F761921E0A000836004 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F751921E0A000836004 /* StoreKit.framework */; };
+		5D965F781921E0B000836004 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F771921E0B000836004 /* CoreImage.framework */; };
+		5D965F7A1921E0C800836004 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F791921E0C800836004 /* ImageIO.framework */; };
+		5D965F7C1921E0CD00836004 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F7B1921E0CD00836004 /* Social.framework */; };
+		5D965F7E1921E0D300836004 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F7D1921E0D300836004 /* MessageUI.framework */; };
+		5D965F801921E0D900836004 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F7F1921E0D900836004 /* MobileCoreServices.framework */; };
+		5D965F821921E0E000836004 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D965F811921E0DF00836004 /* UIKit.framework */; };
+		5DA955E517B758AE00B8D012 /* ORBNoSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA955E317B758AE00B8D012 /* ORBNoSelectionViewController.m */; };
+		5DA955E617B758AE00B8D012 /* ORBNoSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DA955E417B758AE00B8D012 /* ORBNoSelectionViewController.xib */; };
+		5DA955EB17B75B8E00B8D012 /* ORBPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA955EA17B75B8E00B8D012 /* ORBPhotoBrowser.m */; };
+		5DBEB6E617420AF800AE8691 /* ORBExclusionPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBEB6E417420AF800AE8691 /* ORBExclusionPrefsViewController.m */; };
+		5DBEB6E717420AF800AE8691 /* ORBExclusionPrefsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DBEB6E517420AF800AE8691 /* ORBExclusionPrefsViewController.xib */; };
+		5DBEB6EA17420B0700AE8691 /* ORBExclusionRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBEB6E917420B0700AE8691 /* ORBExclusionRule.m */; };
+		5DBEB6FB174210F800AE8691 /* shortcuts.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBEB6F9174210F800AE8691 /* shortcuts.png */; };
+		5DBEB6FC174210F800AE8691 /* shortcuts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBEB6FA174210F800AE8691 /* shortcuts@2x.png */; };
+		A10763E917246B610077894B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10763E817246B610077894B /* Carbon.framework */; };
+		A10763ED17246EBF0077894B /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10763EC17246EBF0077894B /* ScriptingBridge.framework */; };
+		A109F15E180892EE001882FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A109F15D180892EE001882FF /* Images.xcassets */; };
+		A1101E72172C411800075427 /* ORBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1101E71172C411700075427 /* ORBSettingsViewController.m */; };
+		A1101E88172C612C00075427 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = A1101E86172C612C00075427 /* gear.png */; };
+		A1101E89172C612C00075427 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1101E87172C612C00075427 /* gear@2x.png */; };
+		A1101E8C172C630400075427 /* orbit.png in Resources */ = {isa = PBXBuildFile; fileRef = A1101E8A172C630400075427 /* orbit.png */; };
+		A1101E8D172C630400075427 /* orbit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1101E8B172C630400075427 /* orbit@2x.png */; };
+		A1233FF7170CB8BB0036D638 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1233FF6170CB8BB0036D638 /* Quartz.framework */; };
+		A1233FF9170CBD250036D638 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1233FF8170CBD250036D638 /* QuickLook.framework */; };
+		A132B6AA16F6637B00EA6CF6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A132B6A916F6637B00EA6CF6 /* Sparkle.framework */; };
+		A132B6AB16F6639A00EA6CF6 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A132B6A916F6637B00EA6CF6 /* Sparkle.framework */; };
+		A137D77D172AE2E500C39CAF /* JJGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A137D776172AE2E500C39CAF /* JJGWebViewController.m */; };
+		A137D77E172AE2E500C39CAF /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A137D778172AE2E500C39CAF /* back-arrow.png */; };
+		A137D77F172AE2E500C39CAF /* back-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A137D779172AE2E500C39CAF /* back-arrow@2x.png */; };
+		A137D780172AE2E500C39CAF /* forward-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A137D77A172AE2E500C39CAF /* forward-arrow.png */; };
+		A137D781172AE2E500C39CAF /* forward-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A137D77B172AE2E500C39CAF /* forward-arrow@2x.png */; };
+		A137D782172AE2E500C39CAF /* JJGWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A137D77C172AE2E500C39CAF /* JJGWebViewController.xib */; };
+		A13A0BA716F556B000FBC7E6 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13A0BA616F556B000FBC7E6 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A145901D17B46CE1005244D1 /* ORBPassportLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = A145901C17B46CE1005244D1 /* ORBPassportLaunchView.m */; };
+		A14C15D0172A180F00A6D879 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A14C15CE172A180F00A6D879 /* InfoPlist.strings */; };
+		A14C15D2172A180F00A6D879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C15D1172A180F00A6D879 /* main.m */; };
+		A14C15D6172A180F00A6D879 /* ORBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C15D5172A180F00A6D879 /* ORBAppDelegate.m */; };
+		A14C15DF172A180F00A6D879 /* ORBFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C15DE172A180F00A6D879 /* ORBFilesViewController.m */; };
+		A14C15F0172A1A0D00A6D879 /* ORBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F30A16F80B2A00B9D17B /* ORBDataSource.m */; };
+		A15430F916E28C9900E67235 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15430F816E28C9900E67235 /* Cocoa.framework */; };
+		A1550F19172E438400A6A0D5 /* ORBFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1550F18172E438400A6A0D5 /* ORBFileCell.m */; };
+		A164851C170F2BDE0045A125 /* ORBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A164851B170F2BDE0045A125 /* ORBUtilities.m */; };
+		A167F30B16F80B2A00B9D17B /* ORBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F30816F80B2A00B9D17B /* ORBAppDelegate.m */; };
+		A167F30C16F80B2A00B9D17B /* ORBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F30A16F80B2A00B9D17B /* ORBDataSource.m */; };
+		A167F31216F80B4800B9D17B /* ORBPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F31116F80B4800B9D17B /* ORBPanelController.m */; };
+		A167F31516F80B5800B9D17B /* ORBPanelBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F31416F80B5800B9D17B /* ORBPanelBackgroundView.m */; };
+		A167F31916F80B6300B9D17B /* ORBPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F31716F80B6300B9D17B /* ORBPanel.m */; };
+		A167F31A16F80B6300B9D17B /* ORBPanelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A167F31816F80B6300B9D17B /* ORBPanelController.xib */; };
+		A167F31D16F80B6D00B9D17B /* ORBStatusItemIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F31C16F80B6D00B9D17B /* ORBStatusItemIconView.m */; };
+		A167F32616F80B9000B9D17B /* NSArrayController+Orbit.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F32516F80B9000B9D17B /* NSArrayController+Orbit.m */; };
+		A167F32A16F80BA200B9D17B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A167F32916F80BA200B9D17B /* main.m */; };
+		A167F32E16F80C0A00B9D17B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A167F32C16F80C0A00B9D17B /* MainMenu.xib */; };
+		A167F33316F80C2D00B9D17B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A167F32F16F80C2D00B9D17B /* Credits.rtf */; };
+		A167F33416F80C2D00B9D17B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A167F33116F80C2D00B9D17B /* InfoPlist.strings */; };
+		A167F34016F80C5B00B9D17B /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33516F80C5B00B9D17B /* gear@2x.png */; };
+		A167F34116F80C5B00B9D17B /* group-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33616F80C5B00B9D17B /* group-white@2x.png */; };
+		A167F34216F80C5B00B9D17B /* group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33716F80C5B00B9D17B /* group@2x.png */; };
+		A167F34516F80C5B00B9D17B /* lock-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33A16F80C5B00B9D17B /* lock-white@2x.png */; };
+		A167F34616F80C5B00B9D17B /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33B16F80C5B00B9D17B /* lock@2x.png */; };
+		A167F34716F80C5B00B9D17B /* orbit-down.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33C16F80C5B00B9D17B /* orbit-down.png */; };
+		A167F34816F80C5B00B9D17B /* orbit-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33D16F80C5B00B9D17B /* orbit-down@2x.png */; };
+		A167F34916F80C5B00B9D17B /* orbit.png in Resources */ = {isa = PBXBuildFile; fileRef = A167F33E16F80C5B00B9D17B /* orbit.png */; };
+		A16BED7F18084CBA0082AAC5 /* ORBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A16BED7E18084CBA0082AAC5 /* ORBNavigationBar.m */; };
+		A16BED82180850F40082AAC5 /* ORBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16BED81180850F40082AAC5 /* ORBNavigationController.m */; };
+		A16BED851808519C0082AAC5 /* ORBToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A16BED841808519C0082AAC5 /* ORBToolbar.m */; };
+		A180997F173221B800109B59 /* SVProgressHUD+Orbit.m in Sources */ = {isa = PBXBuildFile; fileRef = A180997E173221B800109B59 /* SVProgressHUD+Orbit.m */; };
+		A18F969F17879E9C00184405 /* one-password-text-field.png in Resources */ = {isa = PBXBuildFile; fileRef = A18F967F17879E9C00184405 /* one-password-text-field.png */; };
+		A18F96A017879E9C00184405 /* one-password-text-field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A18F968017879E9C00184405 /* one-password-text-field@2x.png */; };
+		A18F96BA17879E9C00184405 /* RPSTPasswordManagementAppService.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F969C17879E9C00184405 /* RPSTPasswordManagementAppService.m */; };
+		A18F96BD17879F5500184405 /* ORBAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F96BC17879F5500184405 /* ORBAuthViewController.m */; };
+		A197489218088607000E4C1A /* smartbadge-ios.png in Resources */ = {isa = PBXBuildFile; fileRef = A197489018088607000E4C1A /* smartbadge-ios.png */; };
+		A197489318088607000E4C1A /* smartbadge-ios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A197489118088607000E4C1A /* smartbadge-ios@2x.png */; };
+		A19748961808860F000E4C1A /* appbadge-ios.png in Resources */ = {isa = PBXBuildFile; fileRef = A19748941808860F000E4C1A /* appbadge-ios.png */; };
+		A19748971808860F000E4C1A /* appbadge-ios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A19748951808860F000E4C1A /* appbadge-ios@2x.png */; };
+		A1A74F9016E2ACAA00EDE99C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A74F8F16E2ACAA00EDE99C /* CoreLocation.framework */; };
+		A1A74F9216E2ACAF00EDE99C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A74F9116E2ACAF00EDE99C /* SystemConfiguration.framework */; };
+		A1B7F1F7180C5F470050428A /* ORBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B7F1F6180C5F470050428A /* ORBTableViewController.m */; };
+		A1BDE73C17338FB3009BEFC0 /* Blocks+Orbit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BDE73B17338FB3009BEFC0 /* Blocks+Orbit.m */; };
+		A1CA6D53178F803000BF30C7 /* UIViewController+Orbit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA6D52178F803000BF30C7 /* UIViewController+Orbit.m */; };
+		A1CA6D68178F8A3100BF30C7 /* ADNActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA6D58178F8A3100BF30C7 /* ADNActivity.m */; };
+		A1CA6D69178F8A3100BF30C7 /* ADNActivityCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA6D5A178F8A3100BF30C7 /* ADNActivityCollection.m */; };
+		A1CA6D6A178F8A3100BF30C7 /* ADNFelixActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA6D5C178F8A3100BF30C7 /* ADNFelixActivity.m */; };
+		A1CA6D6B178F8A3100BF30C7 /* ADNNetbotActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA6D5E178F8A3100BF30C7 /* ADNNetbotActivity.m */; };
+		A1CA6D6C178F8A3100BF30C7 /* ADNRiposteActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA6D60178F8A3100BF30C7 /* ADNRiposteActivity.m */; };
+		A1CA6D6D178F8A3100BF30C7 /* activity-felix.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA6D62178F8A3100BF30C7 /* activity-felix.png */; };
+		A1CA6D6E178F8A3100BF30C7 /* activity-felix@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA6D63178F8A3100BF30C7 /* activity-felix@2x.png */; };
+		A1CA6D6F178F8A3100BF30C7 /* activity-riposte.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA6D64178F8A3100BF30C7 /* activity-riposte.png */; };
+		A1CA6D70178F8A3100BF30C7 /* activity-riposte@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA6D65178F8A3100BF30C7 /* activity-riposte@2x.png */; };
+		A1CA6D71178F8A3100BF30C7 /* activity-tapbots.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA6D66178F8A3100BF30C7 /* activity-tapbots.png */; };
+		A1CA6D72178F8A3100BF30C7 /* activity-tapbots@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA6D67178F8A3100BF30C7 /* activity-tapbots@2x.png */; };
+		A1CB2B64172A1BB400014FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2592B72616FA4507004573FF /* QuartzCore.framework */; };
+		A1CB2B65172A1EDF00014FB8 /* ORBFileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2592B7C116FF5316004573FF /* ORBFileWrapper.m */; };
+		A1CB2B66172A1F2D00014FB8 /* ORBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A164851B170F2BDE0045A125 /* ORBUtilities.m */; };
+		A1CB2B69172A1F7400014FB8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2592B75316FA4A23004573FF /* Security.framework */; };
+		A1CB78E81788E42A0011620F /* ORBExclusionRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBEB6E917420B0700AE8691 /* ORBExclusionRule.m */; };
+		A1CB78EB1788E6C30011620F /* ORBExclusionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB78EA1788E6C30011620F /* ORBExclusionsViewController.m */; };
+		A1CB78EF1788EAC30011620F /* appbadge-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D6419D17436F00009322E5 /* appbadge-down.png */; };
+		A1CB78F01788EAC30011620F /* appbadge-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D6419E17436F00009322E5 /* appbadge-down@2x.png */; };
+		A1CB78F11788EAC30011620F /* appbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D6419F17436F00009322E5 /* appbadge.png */; };
+		A1CB78F21788EAC30011620F /* appbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641A017436F00009322E5 /* appbadge@2x.png */; };
+		A1CB78F31788EAC30011620F /* smartbadge-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641A917436F06009322E5 /* smartbadge-down.png */; };
+		A1CB78F41788EAC30011620F /* smartbadge-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AA17436F06009322E5 /* smartbadge-down@2x.png */; };
+		A1CB78F51788EAC30011620F /* smartbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AB17436F06009322E5 /* smartbadge.png */; };
+		A1CB78F61788EAC30011620F /* smartbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AC17436F06009322E5 /* smartbadge@2x.png */; };
+		A1D15285172A416B007391B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A74F8F16E2ACAA00EDE99C /* CoreLocation.framework */; };
+		A1D15286172A4187007391B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A74F9116E2ACAF00EDE99C /* SystemConfiguration.framework */; };
+		A1F87C151752CFBB00CB485E /* ORBSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F87C141752CFBB00CB485E /* ORBSettingCell.m */; };
+		A1F87C181752D20100CB485E /* ORBPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C3A917357C050095646F /* ORBPreferences.m */; };
+		DCF30921C24D40F289CA9430 /* libPods-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C60F8C49456B443E98B489C6 /* libPods-mac.a */; };
+		FFC749A570054E4DB9E328C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646E0DE0BC3045579AB819CF /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1A74F9316E2ACBB00EDE99C /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A132B6AB16F6639A00EA6CF6 /* Sparkle.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mac.xcconfig"; path = "Pods/Pods-mac.xcconfig"; sourceTree = "<group>"; };
+		19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
+		25090147172BAAEE0028D183 /* AlertCautionIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlertCautionIcon.icns; path = Orbit/Images/AlertCautionIcon.icns; sourceTree = SOURCE_ROOT; };
+		25694104172A4B3700BB474B /* ORBGeneralPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBGeneralPrefsViewController.h; path = Orbit/ORBGeneralPrefsViewController.h; sourceTree = SOURCE_ROOT; };
+		25694105172A4B3700BB474B /* ORBGeneralPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBGeneralPrefsViewController.m; path = Orbit/ORBGeneralPrefsViewController.m; sourceTree = SOURCE_ROOT; };
+		25694106172A4B3700BB474B /* ORBGeneralPrefsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORBGeneralPrefsViewController.xib; path = Orbit/ORBGeneralPrefsViewController.xib; sourceTree = SOURCE_ROOT; };
+		25795A7A170C8CC5003961E5 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = Orbit/Images/AppIcon.icns; sourceTree = SOURCE_ROOT; };
+		2592B72316FA3BD2004573FF /* ORBInsetTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBInsetTextFieldCell.h; path = Orbit/ORBInsetTextFieldCell.h; sourceTree = SOURCE_ROOT; };
+		2592B72416FA3BD2004573FF /* ORBInsetTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBInsetTextFieldCell.m; path = Orbit/ORBInsetTextFieldCell.m; sourceTree = SOURCE_ROOT; };
+		2592B72616FA4507004573FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2592B75316FA4A23004573FF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2592B76416FAA706004573FF /* ORBPanelSeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPanelSeparatorView.h; path = Orbit/ORBPanelSeparatorView.h; sourceTree = SOURCE_ROOT; };
+		2592B76516FAA707004573FF /* ORBPanelSeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBPanelSeparatorView.m; path = Orbit/ORBPanelSeparatorView.m; sourceTree = SOURCE_ROOT; };
+		2592B76716FAB5FF004573FF /* ORBPanelFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPanelFooterView.h; path = Orbit/ORBPanelFooterView.h; sourceTree = SOURCE_ROOT; };
+		2592B76816FAB5FF004573FF /* ORBPanelFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBPanelFooterView.m; path = Orbit/ORBPanelFooterView.m; sourceTree = SOURCE_ROOT; };
+		2592B76D16FAF374004573FF /* ORBTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBTableView.h; path = Orbit/ORBTableView.h; sourceTree = SOURCE_ROOT; };
+		2592B76E16FAF375004573FF /* ORBTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBTableView.m; path = Orbit/ORBTableView.m; sourceTree = SOURCE_ROOT; };
+		2592B77316FB6A8D004573FF /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = Orbit/Images/gear.png; sourceTree = SOURCE_ROOT; };
+		2592B77616FB6A8D004573FF /* lock-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lock-white.png"; path = "Orbit/Images/lock-white.png"; sourceTree = SOURCE_ROOT; };
+		2592B77716FB6A8D004573FF /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = Orbit/Images/lock.png; sourceTree = SOURCE_ROOT; };
+		2592B7C016FF5316004573FF /* ORBFileWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBFileWrapper.h; path = Orbit/ORBFileWrapper.h; sourceTree = SOURCE_ROOT; };
+		2592B7C116FF5316004573FF /* ORBFileWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBFileWrapper.m; path = Orbit/ORBFileWrapper.m; sourceTree = SOURCE_ROOT; };
+		259BC0FA1725D4650077D9C9 /* odownload.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = odownload.icns; path = Orbit/Images/odownload.icns; sourceTree = SOURCE_ROOT; };
+		25D6419D17436F00009322E5 /* appbadge-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appbadge-down.png"; path = "Orbit/Images/appbadge-down.png"; sourceTree = SOURCE_ROOT; };
+		25D6419E17436F00009322E5 /* appbadge-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appbadge-down@2x.png"; path = "Orbit/Images/appbadge-down@2x.png"; sourceTree = SOURCE_ROOT; };
+		25D6419F17436F00009322E5 /* appbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appbadge.png; path = Orbit/Images/appbadge.png; sourceTree = SOURCE_ROOT; };
+		25D641A017436F00009322E5 /* appbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appbadge@2x.png"; path = "Orbit/Images/appbadge@2x.png"; sourceTree = SOURCE_ROOT; };
+		25D641A917436F06009322E5 /* smartbadge-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smartbadge-down.png"; path = "Orbit/Images/smartbadge-down.png"; sourceTree = SOURCE_ROOT; };
+		25D641AA17436F06009322E5 /* smartbadge-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smartbadge-down@2x.png"; path = "Orbit/Images/smartbadge-down@2x.png"; sourceTree = SOURCE_ROOT; };
+		25D641AB17436F06009322E5 /* smartbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smartbadge.png; path = Orbit/Images/smartbadge.png; sourceTree = SOURCE_ROOT; };
+		25D641AC17436F06009322E5 /* smartbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smartbadge@2x.png"; path = "Orbit/Images/smartbadge@2x.png"; sourceTree = SOURCE_ROOT; };
+		5D09813116FD860C002A6326 /* NSMenuItem+Orbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMenuItem+Orbit.h"; path = "Orbit/NSMenuItem+Orbit.h"; sourceTree = SOURCE_ROOT; };
+		5D09813216FD860C002A6326 /* NSMenuItem+Orbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMenuItem+Orbit.m"; path = "Orbit/NSMenuItem+Orbit.m"; sourceTree = SOURCE_ROOT; };
+		5D09813416FD8CCB002A6326 /* ORBPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPopUpButton.h; path = Orbit/ORBPopUpButton.h; sourceTree = SOURCE_ROOT; };
+		5D09813516FD8CCB002A6326 /* ORBPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBPopUpButton.m; path = Orbit/ORBPopUpButton.m; sourceTree = SOURCE_ROOT; };
+		5D09813716FD8FF0002A6326 /* ORBMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBMenuController.h; path = Orbit/ORBMenuController.h; sourceTree = SOURCE_ROOT; };
+		5D09813816FD8FF0002A6326 /* ORBMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBMenuController.m; path = Orbit/ORBMenuController.m; sourceTree = SOURCE_ROOT; };
+		5D09813A16FD9E17002A6326 /* ORBImageCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBImageCellView.h; path = Orbit/ORBImageCellView.h; sourceTree = SOURCE_ROOT; };
+		5D09813B16FD9E18002A6326 /* ORBImageCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBImageCellView.m; path = Orbit/ORBImageCellView.m; sourceTree = SOURCE_ROOT; };
+		5D09814016FD9F27002A6326 /* ORBTextCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBTextCellView.h; path = Orbit/ORBTextCellView.h; sourceTree = SOURCE_ROOT; };
+		5D09814116FD9F28002A6326 /* ORBTextCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBTextCellView.m; path = Orbit/ORBTextCellView.m; sourceTree = SOURCE_ROOT; };
+		5D0CC6421736BC8F00AEEDAB /* ORBFilenameTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBFilenameTextField.h; path = Orbit/ORBFilenameTextField.h; sourceTree = SOURCE_ROOT; };
+		5D0CC6431736BC8F00AEEDAB /* ORBFilenameTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBFilenameTextField.m; path = Orbit/ORBFilenameTextField.m; sourceTree = SOURCE_ROOT; };
+		5D0CC64C1736CDCA00AEEDAB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		5D2CFECA16FE732800086FBD /* ORBWhiteProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBWhiteProgressIndicator.h; path = Orbit/ORBWhiteProgressIndicator.h; sourceTree = SOURCE_ROOT; };
+		5D2CFECB16FE732800086FBD /* ORBWhiteProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBWhiteProgressIndicator.m; path = Orbit/ORBWhiteProgressIndicator.m; sourceTree = SOURCE_ROOT; };
+		5D48218B17B7FB0C001A8AED /* ORBGradientLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBGradientLayerView.h; sourceTree = "<group>"; };
+		5D48218C17B7FB0C001A8AED /* ORBGradientLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBGradientLayerView.m; sourceTree = "<group>"; };
+		5D53877E17341BE0008277F9 /* ORBShortcutPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBShortcutPrefsViewController.h; path = Orbit/ORBShortcutPrefsViewController.h; sourceTree = SOURCE_ROOT; };
+		5D53877F17341BE0008277F9 /* ORBShortcutPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBShortcutPrefsViewController.m; path = Orbit/ORBShortcutPrefsViewController.m; sourceTree = SOURCE_ROOT; };
+		5D53878017341BE0008277F9 /* ORBShortcutPrefsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORBShortcutPrefsViewController.xib; path = Orbit/ORBShortcutPrefsViewController.xib; sourceTree = SOURCE_ROOT; };
+		5D53878317341BEF008277F9 /* ORBAdvancedPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBAdvancedPrefsViewController.h; path = Orbit/ORBAdvancedPrefsViewController.h; sourceTree = SOURCE_ROOT; };
+		5D53878417341BEF008277F9 /* ORBAdvancedPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBAdvancedPrefsViewController.m; path = Orbit/ORBAdvancedPrefsViewController.m; sourceTree = SOURCE_ROOT; };
+		5D53878517341BEF008277F9 /* ORBAdvancedPrefsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORBAdvancedPrefsViewController.xib; path = Orbit/ORBAdvancedPrefsViewController.xib; sourceTree = SOURCE_ROOT; };
+		5D57F7DE17429600003B1D7F /* ORBCheckboxTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBCheckboxTableCellView.h; path = Orbit/ORBCheckboxTableCellView.h; sourceTree = SOURCE_ROOT; };
+		5D57F7DF17429600003B1D7F /* ORBCheckboxTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBCheckboxTableCellView.m; path = Orbit/ORBCheckboxTableCellView.m; sourceTree = SOURCE_ROOT; };
+		5D72C3A817357C050095646F /* ORBPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPreferences.h; path = Orbit/ORBPreferences.h; sourceTree = SOURCE_ROOT; };
+		5D72C3A917357C050095646F /* ORBPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBPreferences.m; path = Orbit/ORBPreferences.m; sourceTree = SOURCE_ROOT; };
+		5D72C3AF17357C2D0095646F /* ORBStorageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBStorageInfo.h; path = Orbit/ORBStorageInfo.h; sourceTree = SOURCE_ROOT; };
+		5D72C3B017357C2D0095646F /* ORBStorageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBStorageInfo.m; path = Orbit/ORBStorageInfo.m; sourceTree = SOURCE_ROOT; };
+		5D72C3B5173582FF0095646F /* ORBBasePrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBBasePrefsViewController.h; path = Orbit/ORBBasePrefsViewController.h; sourceTree = SOURCE_ROOT; };
+		5D72C3B6173582FF0095646F /* ORBBasePrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBBasePrefsViewController.m; path = Orbit/ORBBasePrefsViewController.m; sourceTree = SOURCE_ROOT; };
+		5D76A1E517AF6A34004B576A /* appbadge-prefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appbadge-prefs.png"; path = "Orbit/Images/appbadge-prefs.png"; sourceTree = SOURCE_ROOT; };
+		5D76A1E617AF6A34004B576A /* appbadge-prefs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appbadge-prefs@2x.png"; path = "Orbit/Images/appbadge-prefs@2x.png"; sourceTree = SOURCE_ROOT; };
+		5D965F701921D83F00836004 /* YRKSpinningProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRKSpinningProgressIndicator.h; sourceTree = "<group>"; };
+		5D965F711921D83F00836004 /* YRKSpinningProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRKSpinningProgressIndicator.m; sourceTree = "<group>"; };
+		5D965F731921E09600836004 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		5D965F751921E0A000836004 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D965F771921E0B000836004 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = ../../../../iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		5D965F791921E0C800836004 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		5D965F7B1921E0CD00836004 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		5D965F7D1921E0D300836004 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		5D965F7F1921E0D900836004 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		5D965F811921E0DF00836004 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5DA955E217B758AE00B8D012 /* ORBNoSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBNoSelectionViewController.h; sourceTree = "<group>"; };
+		5DA955E317B758AE00B8D012 /* ORBNoSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBNoSelectionViewController.m; sourceTree = "<group>"; };
+		5DA955E417B758AE00B8D012 /* ORBNoSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORBNoSelectionViewController.xib; sourceTree = "<group>"; };
+		5DA955E917B75B8E00B8D012 /* ORBPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBPhotoBrowser.h; sourceTree = "<group>"; };
+		5DA955EA17B75B8E00B8D012 /* ORBPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBPhotoBrowser.m; sourceTree = "<group>"; };
+		5DBEB6E317420AF800AE8691 /* ORBExclusionPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBExclusionPrefsViewController.h; path = Orbit/ORBExclusionPrefsViewController.h; sourceTree = SOURCE_ROOT; };
+		5DBEB6E417420AF800AE8691 /* ORBExclusionPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBExclusionPrefsViewController.m; path = Orbit/ORBExclusionPrefsViewController.m; sourceTree = SOURCE_ROOT; };
+		5DBEB6E517420AF800AE8691 /* ORBExclusionPrefsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORBExclusionPrefsViewController.xib; path = Orbit/ORBExclusionPrefsViewController.xib; sourceTree = SOURCE_ROOT; };
+		5DBEB6E817420B0700AE8691 /* ORBExclusionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBExclusionRule.h; path = Orbit/ORBExclusionRule.h; sourceTree = SOURCE_ROOT; };
+		5DBEB6E917420B0700AE8691 /* ORBExclusionRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBExclusionRule.m; path = Orbit/ORBExclusionRule.m; sourceTree = SOURCE_ROOT; };
+		5DBEB6F9174210F800AE8691 /* shortcuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shortcuts.png; path = Orbit/Images/shortcuts.png; sourceTree = SOURCE_ROOT; };
+		5DBEB6FA174210F800AE8691 /* shortcuts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shortcuts@2x.png"; path = "Orbit/Images/shortcuts@2x.png"; sourceTree = SOURCE_ROOT; };
+		646E0DE0BC3045579AB819CF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10763E817246B610077894B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		A10763EB17246E260077894B /* Finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finder.h; sourceTree = "<group>"; };
+		A10763EC17246EBF0077894B /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		A109F15D180892EE001882FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1101E70172C411700075427 /* ORBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBSettingsViewController.h; sourceTree = "<group>"; };
+		A1101E71172C411700075427 /* ORBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBSettingsViewController.m; sourceTree = "<group>"; };
+		A1101E86172C612C00075427 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		A1101E87172C612C00075427 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		A1101E8A172C630400075427 /* orbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orbit.png; sourceTree = "<group>"; };
+		A1101E8B172C630400075427 /* orbit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orbit@2x.png"; sourceTree = "<group>"; };
+		A1233FF6170CB8BB0036D638 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		A1233FF8170CBD250036D638 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		A132B6A916F6637B00EA6CF6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = External/Sparkle.framework; sourceTree = "<group>"; };
+		A137D775172AE2E500C39CAF /* JJGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGWebViewController.h; sourceTree = "<group>"; };
+		A137D776172AE2E500C39CAF /* JJGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGWebViewController.m; sourceTree = "<group>"; };
+		A137D778172AE2E500C39CAF /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		A137D779172AE2E500C39CAF /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow@2x.png"; sourceTree = "<group>"; };
+		A137D77A172AE2E500C39CAF /* forward-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-arrow.png"; sourceTree = "<group>"; };
+		A137D77B172AE2E500C39CAF /* forward-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-arrow@2x.png"; sourceTree = "<group>"; };
+		A137D77C172AE2E500C39CAF /* JJGWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJGWebViewController.xib; sourceTree = "<group>"; };
+		A13A0BA516F556B000FBC7E6 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		A13A0BA616F556B000FBC7E6 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		A145901B17B46CE1005244D1 /* ORBPassportLaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBPassportLaunchView.h; sourceTree = "<group>"; };
+		A145901C17B46CE1005244D1 /* ORBPassportLaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBPassportLaunchView.m; sourceTree = "<group>"; };
+		A14C15C4172A180F00A6D879 /* Orbit iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orbit iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14C15CD172A180F00A6D879 /* Orbit iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orbit iOS-Info.plist"; sourceTree = "<group>"; };
+		A14C15CF172A180F00A6D879 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A14C15D1172A180F00A6D879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A14C15D3172A180F00A6D879 /* Orbit iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orbit iOS-Prefix.pch"; sourceTree = "<group>"; };
+		A14C15D4172A180F00A6D879 /* ORBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORBAppDelegate.h; sourceTree = "<group>"; };
+		A14C15D5172A180F00A6D879 /* ORBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORBAppDelegate.m; sourceTree = "<group>"; };
+		A14C15DD172A180F00A6D879 /* ORBFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORBFilesViewController.h; sourceTree = "<group>"; };
+		A14C15DE172A180F00A6D879 /* ORBFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORBFilesViewController.m; sourceTree = "<group>"; };
+		A15430F516E28C9900E67235 /* Orbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15430F816E28C9900E67235 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A15430FB16E28C9900E67235 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A15430FC16E28C9900E67235 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A15430FD16E28C9900E67235 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1550F17172E438400A6A0D5 /* ORBFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBFileCell.h; sourceTree = "<group>"; };
+		A1550F18172E438400A6A0D5 /* ORBFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBFileCell.m; sourceTree = "<group>"; };
+		A164851A170F2BDE0045A125 /* ORBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBUtilities.h; path = Orbit/ORBUtilities.h; sourceTree = SOURCE_ROOT; };
+		A164851B170F2BDE0045A125 /* ORBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBUtilities.m; path = Orbit/ORBUtilities.m; sourceTree = SOURCE_ROOT; };
+		A167F30716F80B2A00B9D17B /* ORBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBAppDelegate.h; path = Orbit/ORBAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		A167F30816F80B2A00B9D17B /* ORBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBAppDelegate.m; path = Orbit/ORBAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		A167F30916F80B2A00B9D17B /* ORBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBDataSource.h; path = Orbit/ORBDataSource.h; sourceTree = SOURCE_ROOT; };
+		A167F30A16F80B2A00B9D17B /* ORBDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBDataSource.m; path = Orbit/ORBDataSource.m; sourceTree = SOURCE_ROOT; };
+		A167F31016F80B4800B9D17B /* ORBPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPanelController.h; path = Orbit/ORBPanelController.h; sourceTree = SOURCE_ROOT; };
+		A167F31116F80B4800B9D17B /* ORBPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBPanelController.m; path = Orbit/ORBPanelController.m; sourceTree = SOURCE_ROOT; };
+		A167F31316F80B5800B9D17B /* ORBPanelBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPanelBackgroundView.h; path = Orbit/ORBPanelBackgroundView.h; sourceTree = SOURCE_ROOT; };
+		A167F31416F80B5800B9D17B /* ORBPanelBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBPanelBackgroundView.m; path = Orbit/ORBPanelBackgroundView.m; sourceTree = SOURCE_ROOT; };
+		A167F31616F80B6300B9D17B /* ORBPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPanel.h; path = Orbit/ORBPanel.h; sourceTree = SOURCE_ROOT; };
+		A167F31716F80B6300B9D17B /* ORBPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBPanel.m; path = Orbit/ORBPanel.m; sourceTree = SOURCE_ROOT; };
+		A167F31816F80B6300B9D17B /* ORBPanelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ORBPanelController.xib; path = Orbit/ORBPanelController.xib; sourceTree = SOURCE_ROOT; };
+		A167F31B16F80B6D00B9D17B /* ORBStatusItemIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBStatusItemIconView.h; path = Orbit/ORBStatusItemIconView.h; sourceTree = SOURCE_ROOT; };
+		A167F31C16F80B6D00B9D17B /* ORBStatusItemIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBStatusItemIconView.m; path = Orbit/ORBStatusItemIconView.m; sourceTree = SOURCE_ROOT; };
+		A167F32416F80B9000B9D17B /* NSArrayController+Orbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArrayController+Orbit.h"; path = "Orbit/NSArrayController+Orbit.h"; sourceTree = SOURCE_ROOT; };
+		A167F32516F80B9000B9D17B /* NSArrayController+Orbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArrayController+Orbit.m"; path = "Orbit/NSArrayController+Orbit.m"; sourceTree = SOURCE_ROOT; };
+		A167F32716F80B9B00B9D17B /* Orbit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Orbit-Info.plist"; path = "Orbit/Orbit-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A167F32916F80BA200B9D17B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Orbit/main.m; sourceTree = SOURCE_ROOT; };
+		A167F32B16F80BB000B9D17B /* Orbit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Orbit-Prefix.pch"; path = "Orbit/Orbit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A167F32D16F80C0A00B9D17B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Orbit/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		A167F33016F80C2D00B9D17B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Orbit/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		A167F33216F80C2D00B9D17B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Orbit/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		A167F33516F80C5B00B9D17B /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gear@2x.png"; path = "Orbit/Images/gear@2x.png"; sourceTree = SOURCE_ROOT; };
+		A167F33616F80C5B00B9D17B /* group-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group-white@2x.png"; path = "Orbit/Images/group-white@2x.png"; sourceTree = SOURCE_ROOT; };
+		A167F33716F80C5B00B9D17B /* group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group@2x.png"; path = "Orbit/Images/group@2x.png"; sourceTree = SOURCE_ROOT; };
+		A167F33A16F80C5B00B9D17B /* lock-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lock-white@2x.png"; path = "Orbit/Images/lock-white@2x.png"; sourceTree = SOURCE_ROOT; };
+		A167F33B16F80C5B00B9D17B /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lock@2x.png"; path = "Orbit/Images/lock@2x.png"; sourceTree = SOURCE_ROOT; };
+		A167F33C16F80C5B00B9D17B /* orbit-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orbit-down.png"; path = "Orbit/Images/orbit-down.png"; sourceTree = SOURCE_ROOT; };
+		A167F33D16F80C5B00B9D17B /* orbit-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orbit-down@2x.png"; path = "Orbit/Images/orbit-down@2x.png"; sourceTree = SOURCE_ROOT; };
+		A167F33E16F80C5B00B9D17B /* orbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orbit.png; path = Orbit/Images/orbit.png; sourceTree = SOURCE_ROOT; };
+		A167F33F16F80C5B00B9D17B /* orbit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orbit@2x.png"; path = "Orbit/Images/orbit@2x.png"; sourceTree = SOURCE_ROOT; };
+		A16BED7D18084CBA0082AAC5 /* ORBNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBNavigationBar.h; sourceTree = "<group>"; };
+		A16BED7E18084CBA0082AAC5 /* ORBNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBNavigationBar.m; sourceTree = "<group>"; };
+		A16BED80180850F40082AAC5 /* ORBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBNavigationController.h; sourceTree = "<group>"; };
+		A16BED81180850F40082AAC5 /* ORBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBNavigationController.m; sourceTree = "<group>"; };
+		A16BED831808519C0082AAC5 /* ORBToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBToolbar.h; sourceTree = "<group>"; };
+		A16BED841808519C0082AAC5 /* ORBToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBToolbar.m; sourceTree = "<group>"; };
+		A180997D173221B800109B59 /* SVProgressHUD+Orbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+Orbit.h"; sourceTree = "<group>"; };
+		A180997E173221B800109B59 /* SVProgressHUD+Orbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+Orbit.m"; sourceTree = "<group>"; };
+		A18F967F17879E9C00184405 /* one-password-text-field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one-password-text-field.png"; sourceTree = "<group>"; };
+		A18F968017879E9C00184405 /* one-password-text-field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one-password-text-field@2x.png"; sourceTree = "<group>"; };
+		A18F969B17879E9C00184405 /* RPSTPasswordManagementAppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTPasswordManagementAppService.h; sourceTree = "<group>"; };
+		A18F969C17879E9C00184405 /* RPSTPasswordManagementAppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTPasswordManagementAppService.m; sourceTree = "<group>"; };
+		A18F96BB17879F5500184405 /* ORBAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBAuthViewController.h; sourceTree = "<group>"; };
+		A18F96BC17879F5500184405 /* ORBAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBAuthViewController.m; sourceTree = "<group>"; };
+		A197489018088607000E4C1A /* smartbadge-ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartbadge-ios.png"; sourceTree = "<group>"; };
+		A197489118088607000E4C1A /* smartbadge-ios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartbadge-ios@2x.png"; sourceTree = "<group>"; };
+		A19748941808860F000E4C1A /* appbadge-ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appbadge-ios.png"; sourceTree = "<group>"; };
+		A19748951808860F000E4C1A /* appbadge-ios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appbadge-ios@2x.png"; sourceTree = "<group>"; };
+		A1A74F8F16E2ACAA00EDE99C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A1A74F9116E2ACAF00EDE99C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1B7F1F5180C5F470050428A /* ORBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBTableViewController.h; sourceTree = "<group>"; };
+		A1B7F1F6180C5F470050428A /* ORBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBTableViewController.m; sourceTree = "<group>"; };
+		A1BDE73A17338FB3009BEFC0 /* Blocks+Orbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Blocks+Orbit.h"; sourceTree = "<group>"; };
+		A1BDE73B17338FB3009BEFC0 /* Blocks+Orbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Blocks+Orbit.m"; sourceTree = "<group>"; };
+		A1CA6D51178F803000BF30C7 /* UIViewController+Orbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Orbit.h"; sourceTree = "<group>"; };
+		A1CA6D52178F803000BF30C7 /* UIViewController+Orbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Orbit.m"; sourceTree = "<group>"; };
+		A1CA6D57178F8A3100BF30C7 /* ADNActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNActivity.h; sourceTree = "<group>"; };
+		A1CA6D58178F8A3100BF30C7 /* ADNActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNActivity.m; sourceTree = "<group>"; };
+		A1CA6D59178F8A3100BF30C7 /* ADNActivityCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNActivityCollection.h; sourceTree = "<group>"; };
+		A1CA6D5A178F8A3100BF30C7 /* ADNActivityCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNActivityCollection.m; sourceTree = "<group>"; };
+		A1CA6D5B178F8A3100BF30C7 /* ADNFelixActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNFelixActivity.h; sourceTree = "<group>"; };
+		A1CA6D5C178F8A3100BF30C7 /* ADNFelixActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNFelixActivity.m; sourceTree = "<group>"; };
+		A1CA6D5D178F8A3100BF30C7 /* ADNNetbotActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNNetbotActivity.h; sourceTree = "<group>"; };
+		A1CA6D5E178F8A3100BF30C7 /* ADNNetbotActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNNetbotActivity.m; sourceTree = "<group>"; };
+		A1CA6D5F178F8A3100BF30C7 /* ADNRiposteActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNRiposteActivity.h; sourceTree = "<group>"; };
+		A1CA6D60178F8A3100BF30C7 /* ADNRiposteActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNRiposteActivity.m; sourceTree = "<group>"; };
+		A1CA6D62178F8A3100BF30C7 /* activity-felix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity-felix.png"; sourceTree = "<group>"; };
+		A1CA6D63178F8A3100BF30C7 /* activity-felix@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity-felix@2x.png"; sourceTree = "<group>"; };
+		A1CA6D64178F8A3100BF30C7 /* activity-riposte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity-riposte.png"; sourceTree = "<group>"; };
+		A1CA6D65178F8A3100BF30C7 /* activity-riposte@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity-riposte@2x.png"; sourceTree = "<group>"; };
+		A1CA6D66178F8A3100BF30C7 /* activity-tapbots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity-tapbots.png"; sourceTree = "<group>"; };
+		A1CA6D67178F8A3100BF30C7 /* activity-tapbots@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity-tapbots@2x.png"; sourceTree = "<group>"; };
+		A1CABFA5170F3CCC009C7CAB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A1CB78E91788E6C30011620F /* ORBExclusionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBExclusionsViewController.h; sourceTree = "<group>"; };
+		A1CB78EA1788E6C30011620F /* ORBExclusionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBExclusionsViewController.m; sourceTree = "<group>"; };
+		A1F87C131752CFBB00CB485E /* ORBSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBSettingCell.h; sourceTree = "<group>"; };
+		A1F87C141752CFBB00CB485E /* ORBSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBSettingCell.m; sourceTree = "<group>"; };
+		C60F8C49456B443E98B489C6 /* libPods-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DBA01FF9BF47A6A92572BF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F4F067CBB8B747D29FEF5D46 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14C15C1172A180F00A6D879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D965F821921E0E000836004 /* UIKit.framework in Frameworks */,
+				5D965F801921E0D900836004 /* MobileCoreServices.framework in Frameworks */,
+				5D965F7E1921E0D300836004 /* MessageUI.framework in Frameworks */,
+				5D965F7C1921E0CD00836004 /* Social.framework in Frameworks */,
+				5D965F7A1921E0C800836004 /* ImageIO.framework in Frameworks */,
+				5D965F781921E0B000836004 /* CoreImage.framework in Frameworks */,
+				5D965F761921E0A000836004 /* StoreKit.framework in Frameworks */,
+				5D965F741921E09600836004 /* AssetsLibrary.framework in Frameworks */,
+				A1CB2B64172A1BB400014FB8 /* QuartzCore.framework in Frameworks */,
+				A1CB2B69172A1F7400014FB8 /* Security.framework in Frameworks */,
+				A1D15285172A416B007391B3 /* CoreLocation.framework in Frameworks */,
+				A1D15286172A4187007391B3 /* SystemConfiguration.framework in Frameworks */,
+				5B41C8C5AE45440288849ACA /* libPods-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15430F216E28C9900E67235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0CC64D1736CDCA00AEEDAB /* CoreServices.framework in Frameworks */,
+				A10763ED17246EBF0077894B /* ScriptingBridge.framework in Frameworks */,
+				A10763E917246B610077894B /* Carbon.framework in Frameworks */,
+				A1233FF9170CBD250036D638 /* QuickLook.framework in Frameworks */,
+				A1233FF7170CB8BB0036D638 /* Quartz.framework in Frameworks */,
+				2592B75416FA4A23004573FF /* Security.framework in Frameworks */,
+				2592B72716FA4507004573FF /* QuartzCore.framework in Frameworks */,
+				A1A74F9216E2ACAF00EDE99C /* SystemConfiguration.framework in Frameworks */,
+				A1A74F9016E2ACAA00EDE99C /* CoreLocation.framework in Frameworks */,
+				A15430F916E28C9900E67235 /* Cocoa.framework in Frameworks */,
+				A132B6AA16F6637B00EA6CF6 /* Sparkle.framework in Frameworks */,
+				FFC749A570054E4DB9E328C5 /* libPods.a in Frameworks */,
+				DCF30921C24D40F289CA9430 /* libPods-mac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2592B7BF16FF52FC004573FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2592B7C016FF5316004573FF /* ORBFileWrapper.h */,
+				2592B7C116FF5316004573FF /* ORBFileWrapper.m */,
+				5DBEB6E817420B0700AE8691 /* ORBExclusionRule.h */,
+				5DBEB6E917420B0700AE8691 /* ORBExclusionRule.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5D0CC6521736CE0100AEEDAB /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5D0CC64C1736CDCA00AEEDAB /* CoreServices.framework */,
+				A10763EC17246EBF0077894B /* ScriptingBridge.framework */,
+				A10763E817246B610077894B /* Carbon.framework */,
+				A15430F816E28C9900E67235 /* Cocoa.framework */,
+				A132B6A916F6637B00EA6CF6 /* Sparkle.framework */,
+				A1233FF8170CBD250036D638 /* QuickLook.framework */,
+				A1233FF6170CB8BB0036D638 /* Quartz.framework */,
+				2592B72616FA4507004573FF /* QuartzCore.framework */,
+				2592B75316FA4A23004573FF /* Security.framework */,
+				A1A74F8F16E2ACAA00EDE99C /* CoreLocation.framework */,
+				A15430FB16E28C9900E67235 /* AppKit.framework */,
+				A15430FC16E28C9900E67235 /* CoreData.framework */,
+				A15430FD16E28C9900E67235 /* Foundation.framework */,
+				A1A74F9116E2ACAF00EDE99C /* SystemConfiguration.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		5D0CC6531736CE9E00AEEDAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D965F811921E0DF00836004 /* UIKit.framework */,
+				5D965F771921E0B000836004 /* CoreImage.framework */,
+				5D965F731921E09600836004 /* AssetsLibrary.framework */,
+				5D965F751921E0A000836004 /* StoreKit.framework */,
+				5D965F7F1921E0D900836004 /* MobileCoreServices.framework */,
+				5D965F7D1921E0D300836004 /* MessageUI.framework */,
+				5D965F7B1921E0CD00836004 /* Social.framework */,
+				5D965F791921E0C800836004 /* ImageIO.framework */,
+				A1CABFA5170F3CCC009C7CAB /* IOKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D72C3B8173583070095646F /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				5D72C3B5173582FF0095646F /* ORBBasePrefsViewController.h */,
+				5D72C3B6173582FF0095646F /* ORBBasePrefsViewController.m */,
+				25694104172A4B3700BB474B /* ORBGeneralPrefsViewController.h */,
+				25694105172A4B3700BB474B /* ORBGeneralPrefsViewController.m */,
+				25694106172A4B3700BB474B /* ORBGeneralPrefsViewController.xib */,
+				5D53877E17341BE0008277F9 /* ORBShortcutPrefsViewController.h */,
+				5D53877F17341BE0008277F9 /* ORBShortcutPrefsViewController.m */,
+				5D53878017341BE0008277F9 /* ORBShortcutPrefsViewController.xib */,
+				5D53878317341BEF008277F9 /* ORBAdvancedPrefsViewController.h */,
+				5D53878417341BEF008277F9 /* ORBAdvancedPrefsViewController.m */,
+				5D53878517341BEF008277F9 /* ORBAdvancedPrefsViewController.xib */,
+				5DBEB6E317420AF800AE8691 /* ORBExclusionPrefsViewController.h */,
+				5DBEB6E417420AF800AE8691 /* ORBExclusionPrefsViewController.m */,
+				5DBEB6E517420AF800AE8691 /* ORBExclusionPrefsViewController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		5D965F6F1921D83F00836004 /* YRKSpinningProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				5D965F701921D83F00836004 /* YRKSpinningProgressIndicator.h */,
+				5D965F711921D83F00836004 /* YRKSpinningProgressIndicator.m */,
+			);
+			path = YRKSpinningProgressIndicator;
+			sourceTree = "<group>";
+		};
+		A10763EA17246E260077894B /* BetterInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A10763EB17246E260077894B /* Finder.h */,
+			);
+			path = BetterInfo;
+			sourceTree = "<group>";
+		};
+		A1101E7D172C603900075427 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A19748941808860F000E4C1A /* appbadge-ios.png */,
+				A19748951808860F000E4C1A /* appbadge-ios@2x.png */,
+				A1101E86172C612C00075427 /* gear.png */,
+				A1101E87172C612C00075427 /* gear@2x.png */,
+				A1101E8A172C630400075427 /* orbit.png */,
+				A1101E8B172C630400075427 /* orbit@2x.png */,
+				A197489018088607000E4C1A /* smartbadge-ios.png */,
+				A197489118088607000E4C1A /* smartbadge-ios@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A1332D2F16E29AD800693B8F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF72A0172CDEE5001FBB36 /* iOS Only */,
+				A1BF72A1172CDEEE001FBB36 /* Mac Only */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		A137D773172AE2E500C39CAF /* JJGWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A137D774172AE2E500C39CAF /* Classes */,
+				A137D777172AE2E500C39CAF /* Resources */,
+			);
+			path = JJGWebViewController;
+			sourceTree = "<group>";
+		};
+		A137D774172AE2E500C39CAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A137D775172AE2E500C39CAF /* JJGWebViewController.h */,
+				A137D776172AE2E500C39CAF /* JJGWebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A137D777172AE2E500C39CAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A137D778172AE2E500C39CAF /* back-arrow.png */,
+				A137D779172AE2E500C39CAF /* back-arrow@2x.png */,
+				A137D77A172AE2E500C39CAF /* forward-arrow.png */,
+				A137D77B172AE2E500C39CAF /* forward-arrow@2x.png */,
+				A137D77C172AE2E500C39CAF /* JJGWebViewController.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A13A0BA416F556B000FBC7E6 /* LaunchAtLoginController */ = {
+			isa = PBXGroup;
+			children = (
+				A13A0BA516F556B000FBC7E6 /* LaunchAtLoginController.h */,
+				A13A0BA616F556B000FBC7E6 /* LaunchAtLoginController.m */,
+			);
+			path = LaunchAtLoginController;
+			sourceTree = "<group>";
+		};
+		A14C15CB172A180F00A6D879 /* Orbit iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A14C15D4172A180F00A6D879 /* ORBAppDelegate.h */,
+				A14C15D5172A180F00A6D879 /* ORBAppDelegate.m */,
+				A1F87C161752CFC400CB485E /* Files */,
+				A1F87C171752CFCA00CB485E /* Settings */,
+				A18099801732229200109B59 /* Categories */,
+				A16BED7A18084CA20082AAC5 /* Custom */,
+				A1101E7D172C603900075427 /* Images */,
+				A109F15D180892EE001882FF /* Images.xcassets */,
+				A14C15CC172A180F00A6D879 /* Supporting Files */,
+			);
+			path = "Orbit iOS";
+			sourceTree = "<group>";
+		};
+		A14C15CC172A180F00A6D879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A14C15CD172A180F00A6D879 /* Orbit iOS-Info.plist */,
+				A14C15CE172A180F00A6D879 /* InfoPlist.strings */,
+				A14C15D1172A180F00A6D879 /* main.m */,
+				A14C15D3172A180F00A6D879 /* Orbit iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A14C15EF172A19DA00A6D879 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A167F30916F80B2A00B9D17B /* ORBDataSource.h */,
+				A167F30A16F80B2A00B9D17B /* ORBDataSource.m */,
+				5D72C3A817357C050095646F /* ORBPreferences.h */,
+				5D72C3A917357C050095646F /* ORBPreferences.m */,
+				2592B7BF16FF52FC004573FF /* Model */,
+				A1CB78EC1788E95F0011620F /* Resources */,
+				A164851D170F2BE20045A125 /* Utilities */,
+			);
+			name = Shared;
+			path = NetBox;
+			sourceTree = "<group>";
+		};
+		A15430EC16E28C9900E67235 = {
+			isa = PBXGroup;
+			children = (
+				A15430FE16E28C9900E67235 /* Orbit Mac */,
+				A14C15CB172A180F00A6D879 /* Orbit iOS */,
+				A1332D2F16E29AD800693B8F /* External */,
+				A14C15EF172A19DA00A6D879 /* Shared */,
+				A15430F716E28C9900E67235 /* Frameworks */,
+				A15430F616E28C9900E67235 /* Products */,
+				D2DBA01FF9BF47A6A92572BF /* Pods.xcconfig */,
+				19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */,
+				029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A15430F616E28C9900E67235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15430F516E28C9900E67235 /* Orbit.app */,
+				A14C15C4172A180F00A6D879 /* Orbit iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A15430F716E28C9900E67235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0CC6521736CE0100AEEDAB /* OS X */,
+				5D0CC6531736CE9E00AEEDAB /* iOS */,
+				646E0DE0BC3045579AB819CF /* libPods.a */,
+				F4F067CBB8B747D29FEF5D46 /* libPods-ios.a */,
+				C60F8C49456B443E98B489C6 /* libPods-mac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A15430FE16E28C9900E67235 /* Orbit Mac */ = {
+			isa = PBXGroup;
+			children = (
+				A167F30716F80B2A00B9D17B /* ORBAppDelegate.h */,
+				A167F30816F80B2A00B9D17B /* ORBAppDelegate.m */,
+				A167F32C16F80C0A00B9D17B /* MainMenu.xib */,
+				A1A74FE416E2F5FC00EDE99C /* Controller */,
+				A1A74FE516E2F60200EDE99C /* View */,
+				A1B62D0416E3F592002BCAD5 /* Categories */,
+				A1A74FB316E2D90D00EDE99C /* Resources */,
+				A15430FF16E28C9900E67235 /* Supporting Files */,
+			);
+			name = "Orbit Mac";
+			path = NetBox;
+			sourceTree = "<group>";
+		};
+		A15430FF16E28C9900E67235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A167F32F16F80C2D00B9D17B /* Credits.rtf */,
+				A167F33116F80C2D00B9D17B /* InfoPlist.strings */,
+				A167F32916F80BA200B9D17B /* main.m */,
+				A167F32716F80B9B00B9D17B /* Orbit-Info.plist */,
+				A167F32B16F80BB000B9D17B /* Orbit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A164851D170F2BE20045A125 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5D72C3AF17357C2D0095646F /* ORBStorageInfo.h */,
+				5D72C3B017357C2D0095646F /* ORBStorageInfo.m */,
+				A164851A170F2BDE0045A125 /* ORBUtilities.h */,
+				A164851B170F2BDE0045A125 /* ORBUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A16BED7A18084CA20082AAC5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A1B7F1F5180C5F470050428A /* ORBTableViewController.h */,
+				A1B7F1F6180C5F470050428A /* ORBTableViewController.m */,
+				A16BED7D18084CBA0082AAC5 /* ORBNavigationBar.h */,
+				A16BED7E18084CBA0082AAC5 /* ORBNavigationBar.m */,
+				A16BED80180850F40082AAC5 /* ORBNavigationController.h */,
+				A16BED81180850F40082AAC5 /* ORBNavigationController.m */,
+				A16BED831808519C0082AAC5 /* ORBToolbar.h */,
+				A16BED841808519C0082AAC5 /* ORBToolbar.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		A18099801732229200109B59 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A180997D173221B800109B59 /* SVProgressHUD+Orbit.h */,
+				A180997E173221B800109B59 /* SVProgressHUD+Orbit.m */,
+				A1CA6D51178F803000BF30C7 /* UIViewController+Orbit.h */,
+				A1CA6D52178F803000BF30C7 /* UIViewController+Orbit.m */,
+				A1BDE73A17338FB3009BEFC0 /* Blocks+Orbit.h */,
+				A1BDE73B17338FB3009BEFC0 /* Blocks+Orbit.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A18F967917879E9C00184405 /* RPSTPasswordManagementAppService */ = {
+			isa = PBXGroup;
+			children = (
+				A18F967A17879E9C00184405 /* images */,
+				A18F969B17879E9C00184405 /* RPSTPasswordManagementAppService.h */,
+				A18F969C17879E9C00184405 /* RPSTPasswordManagementAppService.m */,
+			);
+			path = RPSTPasswordManagementAppService;
+			sourceTree = "<group>";
+		};
+		A18F967A17879E9C00184405 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A18F967B17879E9C00184405 /* official-1pw-icon-set */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A18F967B17879E9C00184405 /* official-1pw-icon-set */ = {
+			isa = PBXGroup;
+			children = (
+				A18F967C17879E9C00184405 /* 1P mono icons */,
+			);
+			path = "official-1pw-icon-set";
+			sourceTree = "<group>";
+		};
+		A18F967C17879E9C00184405 /* 1P mono icons */ = {
+			isa = PBXGroup;
+			children = (
+				A18F967F17879E9C00184405 /* one-password-text-field.png */,
+				A18F968017879E9C00184405 /* one-password-text-field@2x.png */,
+			);
+			path = "1P mono icons";
+			sourceTree = "<group>";
+		};
+		A1A74FB316E2D90D00EDE99C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1A74FB616E2D91C00EDE99C /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A1A74FB616E2D91C00EDE99C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5D76A1E517AF6A34004B576A /* appbadge-prefs.png */,
+				5D76A1E617AF6A34004B576A /* appbadge-prefs@2x.png */,
+				25090147172BAAEE0028D183 /* AlertCautionIcon.icns */,
+				25795A7A170C8CC5003961E5 /* AppIcon.icns */,
+				2592B77316FB6A8D004573FF /* gear.png */,
+				A167F33516F80C5B00B9D17B /* gear@2x.png */,
+				2592B77616FB6A8D004573FF /* lock-white.png */,
+				A167F33A16F80C5B00B9D17B /* lock-white@2x.png */,
+				2592B77716FB6A8D004573FF /* lock.png */,
+				A167F33B16F80C5B00B9D17B /* lock@2x.png */,
+				A167F33616F80C5B00B9D17B /* group-white@2x.png */,
+				A167F33716F80C5B00B9D17B /* group@2x.png */,
+				A167F33C16F80C5B00B9D17B /* orbit-down.png */,
+				A167F33D16F80C5B00B9D17B /* orbit-down@2x.png */,
+				A167F33E16F80C5B00B9D17B /* orbit.png */,
+				A167F33F16F80C5B00B9D17B /* orbit@2x.png */,
+				259BC0FA1725D4650077D9C9 /* odownload.icns */,
+				5DBEB6F9174210F800AE8691 /* shortcuts.png */,
+				5DBEB6FA174210F800AE8691 /* shortcuts@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A1A74FE416E2F5FC00EDE99C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A167F31016F80B4800B9D17B /* ORBPanelController.h */,
+				A167F31116F80B4800B9D17B /* ORBPanelController.m */,
+				A167F31816F80B6300B9D17B /* ORBPanelController.xib */,
+				5D09813716FD8FF0002A6326 /* ORBMenuController.h */,
+				5D09813816FD8FF0002A6326 /* ORBMenuController.m */,
+				5D72C3B8173583070095646F /* Preferences */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A1A74FE516E2F60200EDE99C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A167F31B16F80B6D00B9D17B /* ORBStatusItemIconView.h */,
+				A167F31C16F80B6D00B9D17B /* ORBStatusItemIconView.m */,
+				A167F31616F80B6300B9D17B /* ORBPanel.h */,
+				A167F31716F80B6300B9D17B /* ORBPanel.m */,
+				A167F31316F80B5800B9D17B /* ORBPanelBackgroundView.h */,
+				A167F31416F80B5800B9D17B /* ORBPanelBackgroundView.m */,
+				2592B72316FA3BD2004573FF /* ORBInsetTextFieldCell.h */,
+				2592B72416FA3BD2004573FF /* ORBInsetTextFieldCell.m */,
+				2592B76416FAA706004573FF /* ORBPanelSeparatorView.h */,
+				2592B76516FAA707004573FF /* ORBPanelSeparatorView.m */,
+				2592B76716FAB5FF004573FF /* ORBPanelFooterView.h */,
+				2592B76816FAB5FF004573FF /* ORBPanelFooterView.m */,
+				2592B76D16FAF374004573FF /* ORBTableView.h */,
+				2592B76E16FAF375004573FF /* ORBTableView.m */,
+				5D09813416FD8CCB002A6326 /* ORBPopUpButton.h */,
+				5D09813516FD8CCB002A6326 /* ORBPopUpButton.m */,
+				5D09813A16FD9E17002A6326 /* ORBImageCellView.h */,
+				5D09813B16FD9E18002A6326 /* ORBImageCellView.m */,
+				5D09814016FD9F27002A6326 /* ORBTextCellView.h */,
+				5D09814116FD9F28002A6326 /* ORBTextCellView.m */,
+				5D2CFECA16FE732800086FBD /* ORBWhiteProgressIndicator.h */,
+				5D2CFECB16FE732800086FBD /* ORBWhiteProgressIndicator.m */,
+				5D0CC6421736BC8F00AEEDAB /* ORBFilenameTextField.h */,
+				5D0CC6431736BC8F00AEEDAB /* ORBFilenameTextField.m */,
+				5D57F7DE17429600003B1D7F /* ORBCheckboxTableCellView.h */,
+				5D57F7DF17429600003B1D7F /* ORBCheckboxTableCellView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A1B62D0416E3F592002BCAD5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A167F32416F80B9000B9D17B /* NSArrayController+Orbit.h */,
+				A167F32516F80B9000B9D17B /* NSArrayController+Orbit.m */,
+				5D09813116FD860C002A6326 /* NSMenuItem+Orbit.h */,
+				5D09813216FD860C002A6326 /* NSMenuItem+Orbit.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A1BF72A0172CDEE5001FBB36 /* iOS Only */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA6D56178F8A3100BF30C7 /* ADNActivities */,
+				A137D773172AE2E500C39CAF /* JJGWebViewController */,
+				A18F967917879E9C00184405 /* RPSTPasswordManagementAppService */,
+			);
+			name = "iOS Only";
+			sourceTree = "<group>";
+		};
+		A1BF72A1172CDEEE001FBB36 /* Mac Only */ = {
+			isa = PBXGroup;
+			children = (
+				A10763EA17246E260077894B /* BetterInfo */,
+				A13A0BA416F556B000FBC7E6 /* LaunchAtLoginController */,
+				5D965F6F1921D83F00836004 /* YRKSpinningProgressIndicator */,
+			);
+			name = "Mac Only";
+			sourceTree = "<group>";
+		};
+		A1CA6D56178F8A3100BF30C7 /* ADNActivities */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA6D57178F8A3100BF30C7 /* ADNActivity.h */,
+				A1CA6D58178F8A3100BF30C7 /* ADNActivity.m */,
+				A1CA6D59178F8A3100BF30C7 /* ADNActivityCollection.h */,
+				A1CA6D5A178F8A3100BF30C7 /* ADNActivityCollection.m */,
+				A1CA6D5B178F8A3100BF30C7 /* ADNFelixActivity.h */,
+				A1CA6D5C178F8A3100BF30C7 /* ADNFelixActivity.m */,
+				A1CA6D5D178F8A3100BF30C7 /* ADNNetbotActivity.h */,
+				A1CA6D5E178F8A3100BF30C7 /* ADNNetbotActivity.m */,
+				A1CA6D5F178F8A3100BF30C7 /* ADNRiposteActivity.h */,
+				A1CA6D60178F8A3100BF30C7 /* ADNRiposteActivity.m */,
+				A1CA6D61178F8A3100BF30C7 /* Images */,
+			);
+			path = ADNActivities;
+			sourceTree = "<group>";
+		};
+		A1CA6D61178F8A3100BF30C7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA6D62178F8A3100BF30C7 /* activity-felix.png */,
+				A1CA6D63178F8A3100BF30C7 /* activity-felix@2x.png */,
+				A1CA6D64178F8A3100BF30C7 /* activity-riposte.png */,
+				A1CA6D65178F8A3100BF30C7 /* activity-riposte@2x.png */,
+				A1CA6D66178F8A3100BF30C7 /* activity-tapbots.png */,
+				A1CA6D67178F8A3100BF30C7 /* activity-tapbots@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A1CB78EC1788E95F0011620F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB78EE1788EABB0011620F /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A1CB78EE1788EABB0011620F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				25D6419D17436F00009322E5 /* appbadge-down.png */,
+				25D6419E17436F00009322E5 /* appbadge-down@2x.png */,
+				25D6419F17436F00009322E5 /* appbadge.png */,
+				25D641A017436F00009322E5 /* appbadge@2x.png */,
+				25D641A917436F06009322E5 /* smartbadge-down.png */,
+				25D641AA17436F06009322E5 /* smartbadge-down@2x.png */,
+				25D641AB17436F06009322E5 /* smartbadge.png */,
+				25D641AC17436F06009322E5 /* smartbadge@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A1F87C161752CFC400CB485E /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				A14C15DD172A180F00A6D879 /* ORBFilesViewController.h */,
+				A14C15DE172A180F00A6D879 /* ORBFilesViewController.m */,
+				A1550F17172E438400A6A0D5 /* ORBFileCell.h */,
+				A1550F18172E438400A6A0D5 /* ORBFileCell.m */,
+				5DA955E217B758AE00B8D012 /* ORBNoSelectionViewController.h */,
+				5DA955E317B758AE00B8D012 /* ORBNoSelectionViewController.m */,
+				5DA955E417B758AE00B8D012 /* ORBNoSelectionViewController.xib */,
+				5DA955E917B75B8E00B8D012 /* ORBPhotoBrowser.h */,
+				5DA955EA17B75B8E00B8D012 /* ORBPhotoBrowser.m */,
+				5D48218B17B7FB0C001A8AED /* ORBGradientLayerView.h */,
+				5D48218C17B7FB0C001A8AED /* ORBGradientLayerView.m */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		A1F87C171752CFCA00CB485E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A1101E70172C411700075427 /* ORBSettingsViewController.h */,
+				A1101E71172C411700075427 /* ORBSettingsViewController.m */,
+				A1F87C131752CFBB00CB485E /* ORBSettingCell.h */,
+				A1F87C141752CFBB00CB485E /* ORBSettingCell.m */,
+				A1CB78E91788E6C30011620F /* ORBExclusionsViewController.h */,
+				A1CB78EA1788E6C30011620F /* ORBExclusionsViewController.m */,
+				A18F96BB17879F5500184405 /* ORBAuthViewController.h */,
+				A18F96BC17879F5500184405 /* ORBAuthViewController.m */,
+				A145901B17B46CE1005244D1 /* ORBPassportLaunchView.h */,
+				A145901C17B46CE1005244D1 /* ORBPassportLaunchView.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14C15C3172A180F00A6D879 /* Orbit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14C15EE172A180F00A6D879 /* Build configuration list for PBXNativeTarget "Orbit iOS" */;
+			buildPhases = (
+				468A8B1FE8674A18AF23742B /* Check Pods Manifest.lock */,
+				A14C15C0172A180F00A6D879 /* Sources */,
+				A14C15C1172A180F00A6D879 /* Frameworks */,
+				A14C15C2172A180F00A6D879 /* Resources */,
+				AD1EB9817F8A471AB4BD120F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orbit iOS";
+			productName = "Orbit iOS";
+			productReference = A14C15C4172A180F00A6D879 /* Orbit iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A15430F416E28C9900E67235 /* Orbit Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A154311216E28C9900E67235 /* Build configuration list for PBXNativeTarget "Orbit Mac" */;
+			buildPhases = (
+				B29C5B3B36C24E0B805CF9AE /* Check Pods Manifest.lock */,
+				A15430F116E28C9900E67235 /* Sources */,
+				A15430F216E28C9900E67235 /* Frameworks */,
+				A15430F316E28C9900E67235 /* Resources */,
+				A1A74F9316E2ACBB00EDE99C /* Copy Frameworks */,
+				42EF9A88342B4E68AFFD5802 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orbit Mac";
+			productName = NetBox;
+			productReference = A15430F516E28C9900E67235 /* Orbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15430ED16E28C9900E67235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ORB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Log Cabin";
+				TargetAttributes = {
+					A14C15C3172A180F00A6D879 = {
+						DevelopmentTeam = 38X5WNVR2Q;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A15430F016E28C9900E67235 /* Build configuration list for PBXProject "Orbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A15430EC16E28C9900E67235;
+			productRefGroup = A15430F616E28C9900E67235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15430F416E28C9900E67235 /* Orbit Mac */,
+				A14C15C3172A180F00A6D879 /* Orbit iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14C15C2172A180F00A6D879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C15D0172A180F00A6D879 /* InfoPlist.strings in Resources */,
+				A109F15E180892EE001882FF /* Images.xcassets in Resources */,
+				A137D77E172AE2E500C39CAF /* back-arrow.png in Resources */,
+				A18F96A017879E9C00184405 /* one-password-text-field@2x.png in Resources */,
+				A137D77F172AE2E500C39CAF /* back-arrow@2x.png in Resources */,
+				A137D780172AE2E500C39CAF /* forward-arrow.png in Resources */,
+				A137D781172AE2E500C39CAF /* forward-arrow@2x.png in Resources */,
+				A137D782172AE2E500C39CAF /* JJGWebViewController.xib in Resources */,
+				5DA955E617B758AE00B8D012 /* ORBNoSelectionViewController.xib in Resources */,
+				A1101E88172C612C00075427 /* gear.png in Resources */,
+				A1101E89172C612C00075427 /* gear@2x.png in Resources */,
+				A1101E8C172C630400075427 /* orbit.png in Resources */,
+				A19748961808860F000E4C1A /* appbadge-ios.png in Resources */,
+				A1101E8D172C630400075427 /* orbit@2x.png in Resources */,
+				A197489218088607000E4C1A /* smartbadge-ios.png in Resources */,
+				A18F969F17879E9C00184405 /* one-password-text-field.png in Resources */,
+				A1CB78EF1788EAC30011620F /* appbadge-down.png in Resources */,
+				A197489318088607000E4C1A /* smartbadge-ios@2x.png in Resources */,
+				A1CB78F01788EAC30011620F /* appbadge-down@2x.png in Resources */,
+				A1CB78F11788EAC30011620F /* appbadge.png in Resources */,
+				A1CB78F21788EAC30011620F /* appbadge@2x.png in Resources */,
+				A1CB78F31788EAC30011620F /* smartbadge-down.png in Resources */,
+				A19748971808860F000E4C1A /* appbadge-ios@2x.png in Resources */,
+				A1CB78F41788EAC30011620F /* smartbadge-down@2x.png in Resources */,
+				A1CB78F51788EAC30011620F /* smartbadge.png in Resources */,
+				A1CB78F61788EAC30011620F /* smartbadge@2x.png in Resources */,
+				A1CA6D6D178F8A3100BF30C7 /* activity-felix.png in Resources */,
+				A1CA6D6E178F8A3100BF30C7 /* activity-felix@2x.png in Resources */,
+				A1CA6D6F178F8A3100BF30C7 /* activity-riposte.png in Resources */,
+				A1CA6D70178F8A3100BF30C7 /* activity-riposte@2x.png in Resources */,
+				A1CA6D71178F8A3100BF30C7 /* activity-tapbots.png in Resources */,
+				A1CA6D72178F8A3100BF30C7 /* activity-tapbots@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15430F316E28C9900E67235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A167F31A16F80B6300B9D17B /* ORBPanelController.xib in Resources */,
+				A167F32E16F80C0A00B9D17B /* MainMenu.xib in Resources */,
+				A167F33316F80C2D00B9D17B /* Credits.rtf in Resources */,
+				A167F33416F80C2D00B9D17B /* InfoPlist.strings in Resources */,
+				A167F34016F80C5B00B9D17B /* gear@2x.png in Resources */,
+				A167F34116F80C5B00B9D17B /* group-white@2x.png in Resources */,
+				A167F34216F80C5B00B9D17B /* group@2x.png in Resources */,
+				A167F34516F80C5B00B9D17B /* lock-white@2x.png in Resources */,
+				A167F34616F80C5B00B9D17B /* lock@2x.png in Resources */,
+				A167F34716F80C5B00B9D17B /* orbit-down.png in Resources */,
+				A167F34816F80C5B00B9D17B /* orbit-down@2x.png in Resources */,
+				A167F34916F80C5B00B9D17B /* orbit.png in Resources */,
+				2592B77816FB6A8D004573FF /* gear.png in Resources */,
+				2592B77B16FB6A8D004573FF /* lock-white.png in Resources */,
+				2592B77C16FB6A8D004573FF /* lock.png in Resources */,
+				25795A7B170C8CC5003961E5 /* AppIcon.icns in Resources */,
+				259BC0FB1725D4650077D9C9 /* odownload.icns in Resources */,
+				25694108172A4B3700BB474B /* ORBGeneralPrefsViewController.xib in Resources */,
+				25090148172BAAEE0028D183 /* AlertCautionIcon.icns in Resources */,
+				5D53878217341BE0008277F9 /* ORBShortcutPrefsViewController.xib in Resources */,
+				5D53878717341BEF008277F9 /* ORBAdvancedPrefsViewController.xib in Resources */,
+				5DBEB6E717420AF800AE8691 /* ORBExclusionPrefsViewController.xib in Resources */,
+				5DBEB6FB174210F800AE8691 /* shortcuts.png in Resources */,
+				5DBEB6FC174210F800AE8691 /* shortcuts@2x.png in Resources */,
+				5D57F7E817429A76003B1D7F /* orbit@2x.png in Resources */,
+				25D641A117436F00009322E5 /* appbadge-down.png in Resources */,
+				25D641A217436F00009322E5 /* appbadge-down@2x.png in Resources */,
+				25D641A317436F00009322E5 /* appbadge.png in Resources */,
+				25D641A417436F00009322E5 /* appbadge@2x.png in Resources */,
+				25D641AD17436F06009322E5 /* smartbadge-down.png in Resources */,
+				25D641AE17436F06009322E5 /* smartbadge-down@2x.png in Resources */,
+				25D641AF17436F06009322E5 /* smartbadge.png in Resources */,
+				25D641B017436F06009322E5 /* smartbadge@2x.png in Resources */,
+				5D76A1E717AF6A34004B576A /* appbadge-prefs.png in Resources */,
+				5D76A1E817AF6A34004B576A /* appbadge-prefs@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42EF9A88342B4E68AFFD5802 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-mac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		468A8B1FE8674A18AF23742B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1EB9817F8A471AB4BD120F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29C5B3B36C24E0B805CF9AE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14C15C0172A180F00A6D879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C15D2172A180F00A6D879 /* main.m in Sources */,
+				A14C15D6172A180F00A6D879 /* ORBAppDelegate.m in Sources */,
+				A14C15DF172A180F00A6D879 /* ORBFilesViewController.m in Sources */,
+				A14C15F0172A1A0D00A6D879 /* ORBDataSource.m in Sources */,
+				A1CB2B65172A1EDF00014FB8 /* ORBFileWrapper.m in Sources */,
+				A1CB2B66172A1F2D00014FB8 /* ORBUtilities.m in Sources */,
+				A137D77D172AE2E500C39CAF /* JJGWebViewController.m in Sources */,
+				A1101E72172C411800075427 /* ORBSettingsViewController.m in Sources */,
+				A1550F19172E438400A6A0D5 /* ORBFileCell.m in Sources */,
+				A16BED7F18084CBA0082AAC5 /* ORBNavigationBar.m in Sources */,
+				A180997F173221B800109B59 /* SVProgressHUD+Orbit.m in Sources */,
+				A18F96BD17879F5500184405 /* ORBAuthViewController.m in Sources */,
+				A1BDE73C17338FB3009BEFC0 /* Blocks+Orbit.m in Sources */,
+				5D72C3B217357C2D0095646F /* ORBStorageInfo.m in Sources */,
+				5DA955E517B758AE00B8D012 /* ORBNoSelectionViewController.m in Sources */,
+				A1B7F1F7180C5F470050428A /* ORBTableViewController.m in Sources */,
+				A1F87C151752CFBB00CB485E /* ORBSettingCell.m in Sources */,
+				A1F87C181752D20100CB485E /* ORBPreferences.m in Sources */,
+				5DA955EB17B75B8E00B8D012 /* ORBPhotoBrowser.m in Sources */,
+				A18F96BA17879E9C00184405 /* RPSTPasswordManagementAppService.m in Sources */,
+				A1CB78E81788E42A0011620F /* ORBExclusionRule.m in Sources */,
+				A16BED82180850F40082AAC5 /* ORBNavigationController.m in Sources */,
+				A1CB78EB1788E6C30011620F /* ORBExclusionsViewController.m in Sources */,
+				A145901D17B46CE1005244D1 /* ORBPassportLaunchView.m in Sources */,
+				A16BED851808519C0082AAC5 /* ORBToolbar.m in Sources */,
+				5D48218D17B7FB0C001A8AED /* ORBGradientLayerView.m in Sources */,
+				A1CA6D53178F803000BF30C7 /* UIViewController+Orbit.m in Sources */,
+				A1CA6D68178F8A3100BF30C7 /* ADNActivity.m in Sources */,
+				A1CA6D69178F8A3100BF30C7 /* ADNActivityCollection.m in Sources */,
+				A1CA6D6A178F8A3100BF30C7 /* ADNFelixActivity.m in Sources */,
+				A1CA6D6B178F8A3100BF30C7 /* ADNNetbotActivity.m in Sources */,
+				A1CA6D6C178F8A3100BF30C7 /* ADNRiposteActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15430F116E28C9900E67235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13A0BA716F556B000FBC7E6 /* LaunchAtLoginController.m in Sources */,
+				A167F30B16F80B2A00B9D17B /* ORBAppDelegate.m in Sources */,
+				A167F30C16F80B2A00B9D17B /* ORBDataSource.m in Sources */,
+				A167F31216F80B4800B9D17B /* ORBPanelController.m in Sources */,
+				A167F31516F80B5800B9D17B /* ORBPanelBackgroundView.m in Sources */,
+				A167F31916F80B6300B9D17B /* ORBPanel.m in Sources */,
+				A167F31D16F80B6D00B9D17B /* ORBStatusItemIconView.m in Sources */,
+				5D965F721921D83F00836004 /* YRKSpinningProgressIndicator.m in Sources */,
+				A167F32616F80B9000B9D17B /* NSArrayController+Orbit.m in Sources */,
+				A167F32A16F80BA200B9D17B /* main.m in Sources */,
+				2592B72516FA3BD2004573FF /* ORBInsetTextFieldCell.m in Sources */,
+				2592B76616FAA707004573FF /* ORBPanelSeparatorView.m in Sources */,
+				2592B76916FAB5FF004573FF /* ORBPanelFooterView.m in Sources */,
+				2592B76F16FAF375004573FF /* ORBTableView.m in Sources */,
+				5D09813316FD860C002A6326 /* NSMenuItem+Orbit.m in Sources */,
+				5D09813616FD8CCB002A6326 /* ORBPopUpButton.m in Sources */,
+				5D09813916FD8FF0002A6326 /* ORBMenuController.m in Sources */,
+				5D09813C16FD9E18002A6326 /* ORBImageCellView.m in Sources */,
+				5D09814216FD9F28002A6326 /* ORBTextCellView.m in Sources */,
+				5D2CFECC16FE732800086FBD /* ORBWhiteProgressIndicator.m in Sources */,
+				2592B7C316FF5338004573FF /* ORBFileWrapper.m in Sources */,
+				A164851C170F2BDE0045A125 /* ORBUtilities.m in Sources */,
+				25694107172A4B3700BB474B /* ORBGeneralPrefsViewController.m in Sources */,
+				5D53878117341BE0008277F9 /* ORBShortcutPrefsViewController.m in Sources */,
+				5D53878617341BEF008277F9 /* ORBAdvancedPrefsViewController.m in Sources */,
+				5D72C3AA17357C050095646F /* ORBPreferences.m in Sources */,
+				5D72C3B117357C2D0095646F /* ORBStorageInfo.m in Sources */,
+				5D72C3B7173582FF0095646F /* ORBBasePrefsViewController.m in Sources */,
+				5D0CC6441736BC8F00AEEDAB /* ORBFilenameTextField.m in Sources */,
+				5DBEB6E617420AF800AE8691 /* ORBExclusionPrefsViewController.m in Sources */,
+				5DBEB6EA17420B0700AE8691 /* ORBExclusionRule.m in Sources */,
+				5D57F7E017429600003B1D7F /* ORBCheckboxTableCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A14C15CE172A180F00A6D879 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14C15CF172A180F00A6D879 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A167F32C16F80C0A00B9D17B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A167F32D16F80C0A00B9D17B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A167F32F16F80C2D00B9D17B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A167F33016F80C2D00B9D17B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A167F33116F80C2D00B9D17B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A167F33216F80C2D00B9D17B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14C15E9172A180F00A6D879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit iOS/Orbit iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Orbit iOS/Orbit iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A14C15EA172A180F00A6D879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit iOS/Orbit iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Orbit iOS/Orbit iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A154311016E28C9900E67235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/External/ADNKit/Release\"",
+					"\"$(SRCROOT)/External/ADNKit/Release/ADNKit+AFNetworking\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A154311116E28C9900E67235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/External/ADNKit/Release\"",
+					"\"$(SRCROOT)/External/ADNKit/Release/ADNKit+AFNetworking\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A154311316E28C9900E67235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit/Orbit-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Orbit/Orbit-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_NAME = Orbit;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A154311416E28C9900E67235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orbit/Orbit-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Orbit/Orbit-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_NAME = Orbit;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14C15EE172A180F00A6D879 /* Build configuration list for PBXNativeTarget "Orbit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14C15E9172A180F00A6D879 /* Debug */,
+				A14C15EA172A180F00A6D879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15430F016E28C9900E67235 /* Build configuration list for PBXProject "Orbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A154311016E28C9900E67235 /* Debug */,
+				A154311116E28C9900E67235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A154311216E28C9900E67235 /* Build configuration list for PBXNativeTarget "Orbit Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A154311316E28C9900E67235 /* Debug */,
+				A154311416E28C9900E67235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A15430ED16E28C9900E67235 /* Project object */;
+}

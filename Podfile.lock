@@ -1,0 +1,63 @@
+PODS:
+  - ADNKit (1.3.1):
+    - AFNetworking (~> 1.3.0)
+  - ADNLogin (2.1.0)
+  - AFNetworking (1.3.4)
+  - ALActionBlocks (1.0.3)
+  - ALToolkit (0.1)
+  - DACircularProgress (2.2.0)
+  - MASPreferences (1.1)
+  - MASShortcut (1.2.3)
+  - MBProgressHUD (0.8)
+  - MWPhotoBrowser (1.4.0):
+    - DACircularProgress
+    - MBProgressHUD (~> 0.8)
+    - PSTCollectionView (~> 1.2)
+    - SDWebImage (~> 3.5.4)
+  - NYXImagesKit (2.3)
+  - PSTCollectionView (1.2.0)
+  - SDScreenshotCapture (1.3)
+  - SDWebImage (3.5.4):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5.4)
+  - SSKeychain (1.2.2)
+  - SVProgressHUD (1.0)
+
+DEPENDENCIES:
+  - ADNKit
+  - ADNLogin
+  - ALActionBlocks
+  - ALToolkit (from `https://github.com/lavoy/ALToolkit.git`)
+  - DACircularProgress
+  - MASPreferences
+  - MASShortcut
+  - MWPhotoBrowser
+  - NYXImagesKit
+  - SDScreenshotCapture
+  - SDWebImage
+  - SSKeychain
+  - SVProgressHUD
+
+EXTERNAL SOURCES:
+  ALToolkit:
+    :git: https://github.com/lavoy/ALToolkit.git
+
+SPEC CHECKSUMS:
+  ADNKit: 65e6e11634b81422528e5778937fab24f6b2cddd
+  ADNLogin: ee20dc7e648813104930d445054cc9780599d864
+  AFNetworking: e403d4333a4e1956cb3fe42364c3c879f820c9a0
+  ALActionBlocks: ddb7dfc87c82aff450717f9b0e8b29ee55be5b6a
+  ALToolkit: 1556b00ea8e575346f318a290d9e64701481f455
+  DACircularProgress: 659d6fd11b5fc099c13ba9350239d9dca324916a
+  MASPreferences: 2c2f30b38c3dfceb0d3b29132a13417706a5adac
+  MASShortcut: 6abaedac53a0542f4856f35be4f1f970b652a51e
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  MWPhotoBrowser: b85e89fcf0575062f32c472d389265dce1f068e1
+  NYXImagesKit: bdcd82ed61e55ad95a2e95675c2f6b84f039c423
+  PSTCollectionView: fb2ad2790c6efa306b2caf10315b2c1464d1f5c6
+  SDScreenshotCapture: 23514b45ebae46b4e66f87b3e3b88b5ecc352e8f
+  SDWebImage: 1a62010700adbba823b621fc217906739dbf6aa5
+  SSKeychain: 3d0b76c87e7b062a7ad1631a825fddec84367d44
+  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
+
+COCOAPODS: 0.32.1
