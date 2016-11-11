@@ -18,7 +18,7 @@ PODS:
   - PSTCollectionView (1.2.0)
   - SDScreenshotCapture (1.3)
   - SDWebImage (3.5.4):
-    - SDWebImage/Core
+    - SDWebImage/Core (= 3.5.4)
   - SDWebImage/Core (3.5.4)
   - SSKeychain (1.2.2)
   - SVProgressHUD (1.0)
@@ -42,22 +42,29 @@ EXTERNAL SOURCES:
   ALToolkit:
     :git: https://github.com/lavoy/ALToolkit.git
 
-SPEC CHECKSUMS:
-  ADNKit: 65e6e11634b81422528e5778937fab24f6b2cddd
-  ADNLogin: ee20dc7e648813104930d445054cc9780599d864
-  AFNetworking: e403d4333a4e1956cb3fe42364c3c879f820c9a0
-  ALActionBlocks: ddb7dfc87c82aff450717f9b0e8b29ee55be5b6a
-  ALToolkit: 1556b00ea8e575346f318a290d9e64701481f455
-  DACircularProgress: 659d6fd11b5fc099c13ba9350239d9dca324916a
-  MASPreferences: 2c2f30b38c3dfceb0d3b29132a13417706a5adac
-  MASShortcut: 6abaedac53a0542f4856f35be4f1f970b652a51e
-  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
-  MWPhotoBrowser: b85e89fcf0575062f32c472d389265dce1f068e1
-  NYXImagesKit: bdcd82ed61e55ad95a2e95675c2f6b84f039c423
-  PSTCollectionView: fb2ad2790c6efa306b2caf10315b2c1464d1f5c6
-  SDScreenshotCapture: 23514b45ebae46b4e66f87b3e3b88b5ecc352e8f
-  SDWebImage: 1a62010700adbba823b621fc217906739dbf6aa5
-  SSKeychain: 3d0b76c87e7b062a7ad1631a825fddec84367d44
-  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
+CHECKOUT OPTIONS:
+  ALToolkit:
+    :commit: d3f1ece01ac4a8cc7314dbb30d24dfb0e476f8a7
+    :git: https://github.com/lavoy/ALToolkit.git
 
-COCOAPODS: 0.32.1
+SPEC CHECKSUMS:
+  ADNKit: 29e86c3f33733373cb544c85e45bf4978f12843b
+  ADNLogin: 840d142e529d158f40468b78e42b1bd2462471b4
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  ALActionBlocks: ac91b1a37b60a8004fb687ddade0600446f3d3fa
+  ALToolkit: 376f911cb6d354796dd3c054acc39f1d6f1e8da3
+  DACircularProgress: 0f92b77239d5f3c612fc66185e2998391ac8e054
+  MASPreferences: fd8927826876acb095c78ca3f858818463ffdc30
+  MASShortcut: 34ccbe90d78ceb216c410ace39a57a2b10ea7141
+  MBProgressHUD: 8688c331cb64702283be37ab8d7d329cdd25f251
+  MWPhotoBrowser: 02c13159c8cc89740a53a2e59b368593b2495715
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  PSTCollectionView: 781bdbcbf2f8c79f618441ced58105383603e6bc
+  SDScreenshotCapture: e5dd64e38228e6357a5ea6a80dd8f1bacc351c8a
+  SDWebImage: 32ca144928625f9a04d561115028cf6db3aa7b63
+  SSKeychain: 88767e903ee8d274ed380e364d96b7a101235286
+  SVProgressHUD: 46088807596a795cbcb4affd92cf3f13b6ab3dda
+
+PODFILE CHECKSUM: 3438d0feff7d8d481b09ba0a33853bdb4b594a65
+
+COCOAPODS: 1.1.0.rc.2

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A441B2F72DC8A4E14056953 /* libPods-Orbit iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7A996CB2233D723645D1D3 /* libPods-Orbit iOS.a */; };
 		25090148172BAAEE0028D183 /* AlertCautionIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 25090147172BAAEE0028D183 /* AlertCautionIcon.icns */; };
 		25694107172A4B3700BB474B /* ORBGeneralPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25694105172A4B3700BB474B /* ORBGeneralPrefsViewController.m */; };
 		25694108172A4B3700BB474B /* ORBGeneralPrefsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25694106172A4B3700BB474B /* ORBGeneralPrefsViewController.xib */; };
@@ -30,7 +31,6 @@
 		25D641AE17436F06009322E5 /* smartbadge-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AA17436F06009322E5 /* smartbadge-down@2x.png */; };
 		25D641AF17436F06009322E5 /* smartbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AB17436F06009322E5 /* smartbadge.png */; };
 		25D641B017436F06009322E5 /* smartbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D641AC17436F06009322E5 /* smartbadge@2x.png */; };
-		5B41C8C5AE45440288849ACA /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F067CBB8B747D29FEF5D46 /* libPods-ios.a */; };
 		5D09813316FD860C002A6326 /* NSMenuItem+Orbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09813216FD860C002A6326 /* NSMenuItem+Orbit.m */; };
 		5D09813616FD8CCB002A6326 /* ORBPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09813516FD8CCB002A6326 /* ORBPopUpButton.m */; };
 		5D09813916FD8FF0002A6326 /* ORBMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D09813816FD8FF0002A6326 /* ORBMenuController.m */; };
@@ -69,6 +69,7 @@
 		5DBEB6EA17420B0700AE8691 /* ORBExclusionRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBEB6E917420B0700AE8691 /* ORBExclusionRule.m */; };
 		5DBEB6FB174210F800AE8691 /* shortcuts.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBEB6F9174210F800AE8691 /* shortcuts.png */; };
 		5DBEB6FC174210F800AE8691 /* shortcuts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBEB6FA174210F800AE8691 /* shortcuts@2x.png */; };
+		90BDF10B108B6A0402EF5ACD /* libPods-Orbit Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9B4493E92A733577A8E012 /* libPods-Orbit Mac.a */; };
 		A10763E917246B610077894B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10763E817246B610077894B /* Carbon.framework */; };
 		A10763ED17246EBF0077894B /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10763EC17246EBF0077894B /* ScriptingBridge.framework */; };
 		A109F15E180892EE001882FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A109F15D180892EE001882FF /* Images.xcassets */; };
@@ -163,8 +164,6 @@
 		A1D15286172A4187007391B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A74F9116E2ACAF00EDE99C /* SystemConfiguration.framework */; };
 		A1F87C151752CFBB00CB485E /* ORBSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F87C141752CFBB00CB485E /* ORBSettingCell.m */; };
 		A1F87C181752D20100CB485E /* ORBPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C3A917357C050095646F /* ORBPreferences.m */; };
-		DCF30921C24D40F289CA9430 /* libPods-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C60F8C49456B443E98B489C6 /* libPods-mac.a */; };
-		FFC749A570054E4DB9E328C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646E0DE0BC3045579AB819CF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -182,8 +181,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mac.xcconfig"; path = "Pods/Pods-mac.xcconfig"; sourceTree = "<group>"; };
-		19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
+		0D9B4493E92A733577A8E012 /* libPods-Orbit Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Orbit Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25090147172BAAEE0028D183 /* AlertCautionIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlertCautionIcon.icns; path = Orbit/Images/AlertCautionIcon.icns; sourceTree = SOURCE_ROOT; };
 		25694104172A4B3700BB474B /* ORBGeneralPrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBGeneralPrefsViewController.h; path = Orbit/ORBGeneralPrefsViewController.h; sourceTree = SOURCE_ROOT; };
 		25694105172A4B3700BB474B /* ORBGeneralPrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBGeneralPrefsViewController.m; path = Orbit/ORBGeneralPrefsViewController.m; sourceTree = SOURCE_ROOT; };
@@ -213,6 +211,7 @@
 		25D641AA17436F06009322E5 /* smartbadge-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smartbadge-down@2x.png"; path = "Orbit/Images/smartbadge-down@2x.png"; sourceTree = SOURCE_ROOT; };
 		25D641AB17436F06009322E5 /* smartbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smartbadge.png; path = Orbit/Images/smartbadge.png; sourceTree = SOURCE_ROOT; };
 		25D641AC17436F06009322E5 /* smartbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smartbadge@2x.png"; path = "Orbit/Images/smartbadge@2x.png"; sourceTree = SOURCE_ROOT; };
+		321EC0930EA896F5C24A2737 /* Pods-Orbit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbit iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orbit iOS/Pods-Orbit iOS.release.xcconfig"; sourceTree = "<group>"; };
 		5D09813116FD860C002A6326 /* NSMenuItem+Orbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMenuItem+Orbit.h"; path = "Orbit/NSMenuItem+Orbit.h"; sourceTree = SOURCE_ROOT; };
 		5D09813216FD860C002A6326 /* NSMenuItem+Orbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMenuItem+Orbit.m"; path = "Orbit/NSMenuItem+Orbit.m"; sourceTree = SOURCE_ROOT; };
 		5D09813416FD8CCB002A6326 /* ORBPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORBPopUpButton.h; path = Orbit/ORBPopUpButton.h; sourceTree = SOURCE_ROOT; };
@@ -268,7 +267,8 @@
 		5DBEB6E917420B0700AE8691 /* ORBExclusionRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORBExclusionRule.m; path = Orbit/ORBExclusionRule.m; sourceTree = SOURCE_ROOT; };
 		5DBEB6F9174210F800AE8691 /* shortcuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shortcuts.png; path = Orbit/Images/shortcuts.png; sourceTree = SOURCE_ROOT; };
 		5DBEB6FA174210F800AE8691 /* shortcuts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shortcuts@2x.png"; path = "Orbit/Images/shortcuts@2x.png"; sourceTree = SOURCE_ROOT; };
-		646E0DE0BC3045579AB819CF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7A996CB2233D723645D1D3 /* libPods-Orbit iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Orbit iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CC7F113D26C27B6D961A95 /* Pods-Orbit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbit iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orbit iOS/Pods-Orbit iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A10763E817246B610077894B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		A10763EB17246E260077894B /* Finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finder.h; sourceTree = "<group>"; };
 		A10763EC17246EBF0077894B /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
@@ -388,9 +388,8 @@
 		A1CB78EA1788E6C30011620F /* ORBExclusionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBExclusionsViewController.m; sourceTree = "<group>"; };
 		A1F87C131752CFBB00CB485E /* ORBSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBSettingCell.h; sourceTree = "<group>"; };
 		A1F87C141752CFBB00CB485E /* ORBSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBSettingCell.m; sourceTree = "<group>"; };
-		C60F8C49456B443E98B489C6 /* libPods-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DBA01FF9BF47A6A92572BF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		F4F067CBB8B747D29FEF5D46 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF772CCFB2F29903A443E2D8 /* Pods-Orbit Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbit Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orbit Mac/Pods-Orbit Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFF0561A17410E5212C1994 /* Pods-Orbit Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orbit Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orbit Mac/Pods-Orbit Mac.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,7 +409,7 @@
 				A1CB2B69172A1F7400014FB8 /* Security.framework in Frameworks */,
 				A1D15285172A416B007391B3 /* CoreLocation.framework in Frameworks */,
 				A1D15286172A4187007391B3 /* SystemConfiguration.framework in Frameworks */,
-				5B41C8C5AE45440288849ACA /* libPods-ios.a in Frameworks */,
+				0A441B2F72DC8A4E14056953 /* libPods-Orbit iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,8 +428,7 @@
 				A1A74F9016E2ACAA00EDE99C /* CoreLocation.framework in Frameworks */,
 				A15430F916E28C9900E67235 /* Cocoa.framework in Frameworks */,
 				A132B6AA16F6637B00EA6CF6 /* Sparkle.framework in Frameworks */,
-				FFC749A570054E4DB9E328C5 /* libPods.a in Frameworks */,
-				DCF30921C24D40F289CA9430 /* libPods-mac.a in Frameworks */,
+				90BDF10B108B6A0402EF5ACD /* libPods-Orbit Mac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,9 +635,7 @@
 				A14C15EF172A19DA00A6D879 /* Shared */,
 				A15430F716E28C9900E67235 /* Frameworks */,
 				A15430F616E28C9900E67235 /* Products */,
-				D2DBA01FF9BF47A6A92572BF /* Pods.xcconfig */,
-				19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */,
-				029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */,
+				DB6C0FD4C75D2ABD12D79A71 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -657,9 +653,8 @@
 			children = (
 				5D0CC6521736CE0100AEEDAB /* OS X */,
 				5D0CC6531736CE9E00AEEDAB /* iOS */,
-				646E0DE0BC3045579AB819CF /* libPods.a */,
-				F4F067CBB8B747D29FEF5D46 /* libPods-ios.a */,
-				C60F8C49456B443E98B489C6 /* libPods-mac.a */,
+				0D9B4493E92A733577A8E012 /* libPods-Orbit Mac.a */,
+				6B7A996CB2233D723645D1D3 /* libPods-Orbit iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -966,6 +961,17 @@
 			name = Settings;
 			sourceTree = "<group>";
 		};
+		DB6C0FD4C75D2ABD12D79A71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF772CCFB2F29903A443E2D8 /* Pods-Orbit Mac.debug.xcconfig */,
+				DDFF0561A17410E5212C1994 /* Pods-Orbit Mac.release.xcconfig */,
+				93CC7F113D26C27B6D961A95 /* Pods-Orbit iOS.debug.xcconfig */,
+				321EC0930EA896F5C24A2737 /* Pods-Orbit iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -973,11 +979,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A14C15EE172A180F00A6D879 /* Build configuration list for PBXNativeTarget "Orbit iOS" */;
 			buildPhases = (
-				468A8B1FE8674A18AF23742B /* Check Pods Manifest.lock */,
+				8BE6062A9C1A05EE2BE9BA3B /* [CP] Check Pods Manifest.lock */,
 				A14C15C0172A180F00A6D879 /* Sources */,
 				A14C15C1172A180F00A6D879 /* Frameworks */,
 				A14C15C2172A180F00A6D879 /* Resources */,
-				AD1EB9817F8A471AB4BD120F /* Copy Pods Resources */,
+				5D073B0A3E2C9CF6CC31F980 /* [CP] Embed Pods Frameworks */,
+				30EACB05BEE57AE4F4ABD370 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -992,12 +999,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A154311216E28C9900E67235 /* Build configuration list for PBXNativeTarget "Orbit Mac" */;
 			buildPhases = (
-				B29C5B3B36C24E0B805CF9AE /* Check Pods Manifest.lock */,
+				90B6FC55CA4269B1F85032F5 /* [CP] Check Pods Manifest.lock */,
 				A15430F116E28C9900E67235 /* Sources */,
 				A15430F216E28C9900E67235 /* Frameworks */,
 				A15430F316E28C9900E67235 /* Resources */,
 				A1A74F9316E2ACBB00EDE99C /* Copy Frameworks */,
-				42EF9A88342B4E68AFFD5802 /* Copy Pods Resources */,
+				8932B31F5AC09EF1888044D2 /* [CP] Embed Pods Frameworks */,
+				DB5853F215983CA91665A97F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1131,64 +1139,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		42EF9A88342B4E68AFFD5802 /* Copy Pods Resources */ = {
+		30EACB05BEE57AE4F4ABD370 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-mac-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orbit iOS/Pods-Orbit iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		468A8B1FE8674A18AF23742B /* Check Pods Manifest.lock */ = {
+		5D073B0A3E2C9CF6CC31F980 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orbit iOS/Pods-Orbit iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AD1EB9817F8A471AB4BD120F /* Copy Pods Resources */ = {
+		8932B31F5AC09EF1888044D2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ios-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orbit Mac/Pods-Orbit Mac-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B29C5B3B36C24E0B805CF9AE /* Check Pods Manifest.lock */ = {
+		8BE6062A9C1A05EE2BE9BA3B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90B6FC55CA4269B1F85032F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5853F215983CA91665A97F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orbit Mac/Pods-Orbit Mac-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1312,7 +1350,7 @@
 /* Begin XCBuildConfiguration section */
 		A14C15E9172A180F00A6D879 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */;
+			baseConfigurationReference = 93CC7F113D26C27B6D961A95 /* Pods-Orbit iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1351,7 +1389,7 @@
 		};
 		A14C15EA172A180F00A6D879 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19279F6FD8784F50B4179D6F /* Pods-ios.xcconfig */;
+			baseConfigurationReference = 321EC0930EA896F5C24A2737 /* Pods-Orbit iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1459,7 +1497,7 @@
 		};
 		A154311316E28C9900E67235 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */;
+			baseConfigurationReference = BF772CCFB2F29903A443E2D8 /* Pods-Orbit Mac.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1481,7 +1519,7 @@
 		};
 		A154311416E28C9900E67235 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 029F0DB9C0C34392ACE9BC85 /* Pods-mac.xcconfig */;
+			baseConfigurationReference = DDFF0561A17410E5212C1994 /* Pods-Orbit Mac.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;

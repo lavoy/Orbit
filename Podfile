@@ -1,6 +1,8 @@
-pod 'SSKeychain'
+def all_pods
+  pod 'SSKeychain'
+end
 
-target :ios, :exclusive => true do
+def ios_pods
   platform :ios, '6.0'
   pod 'ADNKit'
   pod 'ADNLogin'
@@ -13,13 +15,21 @@ target :ios, :exclusive => true do
   pod 'SDWebImage'
   pod 'SVProgressHUD'
   pod 'SSKeychain'
-  link_with 'Orbit iOS'
 end
 
-target :mac do
+def mac_pods
   platform :osx, '10.7'
   pod 'ADNKit'
   pod 'MASPreferences'
   pod 'MASShortcut'
-  link_with 'Orbit Mac'
+end
+
+target 'Orbit iOS' do
+  all_pods
+  ios_pods
+end
+
+target 'Orbit Mac' do
+  all_pods
+  mac_pods
 end
